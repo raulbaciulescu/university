@@ -1,0 +1,11 @@
+Memory:
+- ConversationBufferMemory - conversation.memory.buffer
+- ConversationSummaryMemory - rezumat la tot ce se vorbeste
+- ConversationBufferWindowMemory - tine minte ultimele asa cum sunt ele, fara rezumat
+- ConversationSummaryBufferMemory - Tine minte in buffer ultimele interactiuni pana cand trece de limita de tokenuri, 
+apoi face rezumat, deci sunt folosite ambele variante
+- ConversationEntityMemory 
+
+Agents
+- boti care fac actiuni = tools
+- parametrii cand folosim un agent.. tool llm, agent(type) 

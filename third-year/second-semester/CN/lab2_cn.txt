@@ -1,0 +1,11 @@
+- lab01 va contine: Lab01_ReviewReport.xlsx, Requirements_v2.0.pdf şi Diagram_v2.0.pdf
+- Lab01_ReviewReport.xlsx compunem noi
+- ne uitam in astea Requirements_v1.0.pdf, Diagram_v1.0.pdf şi codul sursă (proiectul Maven)
+
+lab 2 
+2 obligatorie
+124
+
+
+- epsilon masinii - precizia masinii
+- : 2, * 2

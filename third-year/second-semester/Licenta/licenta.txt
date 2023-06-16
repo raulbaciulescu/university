@@ -1,0 +1,73 @@
+2019-2020
+
+
+20 articole
+bing ai
+
+latest results
+
+45 pagini aprox
+
+jumatate state of the art 20 pag, introducere 2 3 pag, situatia la zi, 
+2 cap solutia mea arhitectura, functionalitati
+
+Avram Tufis 2020
+- e de la RobinASR
+- e prezentata o retea neuronala, implementata si antrenata pentru limba romana
+- Corola si Oscar
+
+2020.Irec
+- au o aplicatie prin care te poti inregistra, iti treci datele
+- lucrarea descrie setul de date de antrenament cu care ei vin
+- resursele pentru speech to text din romania (tabel1)
+
+chatgpt
+- ce poti face cu el, social media, coding...
+- e degeaba pdf-ul
+
+dumitru2006
+- HMM (din anumite sunete se alege ce cuvant este zis - cuvantul cu cea mai mare probabilitate)
+- prea vechi
+
+IJCS
+- asistent vocal cu chatgpt
+- nu zice mai nimic concret..doar importanta lui, chestii vagi
+
+itmconf
+- home automation cu chatbot, voice assistant
+- rasspberry pi
+
+
+kenlm
+- o librarie care are 2 structuri de date, ajuta la predictia de cuvinte bazata pe alte cuvinte
+
+2111
+- face un api, pornind de la proiectul lui robin, e rapid, pune virgule majuscule, antreneaza
+- foloseste 
+
+
+1. Avram, A.M., Păiș, V. and Tufis, D., 2020, October. Towards a Romanian end-to-end automatic speech recognition based on Deepspeech2. In Proc. Rom. Acad. Ser. A (Vol. 21, pp. 395-402).
+2. Andrei-Marius Avram, Vasile Păiș, Dan Tufiș. ROMANIAN SPEECH RECOGNITION EXPERIMENTS FROM THE ROBIN PROJECT
+3. Alexandru-Lucian Georgescu, Horia Cucu, Andi Buzo, Corneliu Burileanu. RSC: A Romanian Read Speech Corpus for Automatic Speech Recognition
+
+
+
+ce e deja in robin
+- corola
+- rodigits
+- romanian common voice rcv
+- romanian speech synthesis rss
+- romanian read speech corpus rsc
+
+
+ce a ramas
+- rasc nu gasesc...
+- ro-grid nu gasesc...
+- swara nu e available
+- 
+
+
+
+
+
+

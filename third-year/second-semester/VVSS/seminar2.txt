@@ -1,0 +1,86 @@
+
+
+system testing - BBT, tester
+integration testing
+unit testing - .., black box, white box dev
+
+black box = preconditie, postconditie...ECP, BVA
+nu e nevoie sa ma uit la cod, ma uit la semnatura metodei, aleg 2 parametri pt constrangeri
+
+white box = criterii de acoperire
+
+ECP(Equivalence Partitioning Method)
+- domeniul de val pe care le putem da la val de intrari le putem imparti in clase mai mici, se alege
+din fiecare cate un reprezentant pe care testam
+- 
+
+
+l = [1, 12] = putem imparti in mai multe clase de echivalenta..
+
+----------------------------->
+-inf     1      12           inf
+TC1 = 3
+TC2 = 0
+TC3 = 13
+TC4 = 's'
+
+3
+-*100 = 75% coverage
+4
+
+
+v = {1, ...., 12} = |A|
+|A| ecs valide (cazuri de echivalenta)
+1 EC nevalida v nu apartine lui A
+
+v={Dl, Dna, Dra} => 3 ecs valide, 1 ec invalid
+
+
+
+BVA
+coverage pt valorile valide 2/6  *100 = 33%
+
+v ap [a, b]
+---------------------------------->
+-inf   a                    b
+alegem a-1, a, a+1, b-1, b, b+1 => 6 TCS
+
+
+v ap (a, b)
+a + 1, b + 1 ca valide
+a, b ca invalide => 4TC (test cases)
+
+v ap {1,...12}
+0, 1, 12, 13 => 4TC
+
+v ap {DL, Dna, Dra}
+nu exista limite => BVA nu se poate aplica => Best Representative, alegem in functie de anumite argumente 
+reprezentativii
+
+primu 
+1| n ap N| {0,...} | .
+2 n ap N |         | n ap C - N
+
+
+al 2 lea tabel
+1 | 1 4 | 4 | F
+2 | 2 5 | 0.3 | Err
+3 | 1 3 | 3 | T
+
+tabel 4
+4 | n = -1(n e int) | - | DA | -1 | Err
+5 | n = 0           | - | DA | 0  | F  
+6 | n = 1           | - | DA | 1 | F   
+7 | n = max - 1 |    _  | DA | max -1 | T/F
+8 | n = max |         -  | DA | max | T/F
+9 | n = max + 1 |       -  | ? | max + 1| Err
+
+
+1) 1 ap N (nu incap toate nr naturale pe int), => avem 6tc
+-1 0 1, max - 1, max, max + 1 pe bva condition
+
+2) rez ap {T, F} multime finita neordonata => Bva nu se poate aplica
+{0, 1} testam cu -1 2 0 1 limita superioara, limita inferioara
+
+
+Engineering Critical Assessment (ECA) 

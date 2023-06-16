@@ -1,0 +1,4 @@
+gcloud auth login
+gcloud config set project blabla
+gcloud config list
+gcloud auth application-default login
