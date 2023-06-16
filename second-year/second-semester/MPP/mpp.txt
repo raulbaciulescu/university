@@ -1,0 +1,95 @@
+Curs 1
+- gradle
+
+Curs 2
+logger - ajuta sa facem afisari intr un fisier cu scopul depanarii, vizualizare cum se executa codul
+jdbc - o multime de clase care asigura accesul la date
+callable statement - folosit pt apelarea procedurilor stocate
+
+Curs 3
+ADO.NET - biblioteca orientata pe obiecte prin care aplicatiei ii este asigurat accesul la date
+
+Curs 4
+JavaBeans - e o clasa java speciala trebuie sa aiba constructor implicit, metode get set corecte!
+Spring - bean Spring care nu trebuie sa fie Java bean
+       - Spring foloseste principiul IoC pt injectarea dependentelor
+
+Inversion of Control IoC sau Dependency Injection
+- procesul prin care obiectele isi definesc dependentele 
+- un container injecteaza aceste dependente 
+- un bean spring este un obiect java care este instantiat de containerul ioc
+- bean urile sunt singleton, implicit, putem schimba asta
+
+Curs 5
+- @Component - metoda de declarare a bean urilor
+- @Autowired - marcarea dependentelor
+
+Sablonul Proxy
+- asigura pentru un obiect existent un inlocuitor sau un surogat in scopul controlarii scopului acestuia
+- remote proxy ofera un inlocuitor local pt ceva un obiect aflat la distanta 
+- inlocuitorul este responsabil pt intocmirea unei cereri => clientul cererii comunica cu obiectul real
+- 
+
+Data Transfer Object
+- obiect facut special pentru trimiterea datelor
+
+
+Curs 6
+- despre thread uri
+
+Curs 7
+- COBRA - este o arhitectură standard pentru sisteme distribuite orientate pe obiect.
+- Interface Definition Language (IDL) propus de OMG permite specificarea interfețelor obiectelor remote
+- ProtoBuff metoda de a serializa datele
+- gRPC
+- Remote Procedure Call Rpc - tehnologie de comunicare intre procese care permite unei aplicatii sa initializeze
+executia unei subrutine sau a unei proceduri din alt spatiu de adrese fara ca programatorul sa scrie codul explicit
+
+Curs 8
+- Thrift e o tehnologie pt rpc = clienti si servere doar prin definirea tipurilor de date
+- Object/Relational Mapping ORM - este o modalitate de convertire a tipurilor/informatiilor dintr un sistem orientat obiect intr o baza de date relationala
+- scop de a lucra doar cu entitatile din domain
+- shadow information sunt informatii pe care obiectele trebuuie sa le pastreze pentru a fi persistate
+- Impedance missmatch diferentele dintre cele doua abordari object-relational
+object - obiecte care pastreaza date si tin de logica aplicatiei
+relational - tabele din care preluam informatia folosind queriuri
+
+Curs 9
+-Servicii Web
+- Constrangerile REST:
+1. Uniform interface
+- o resursa din sistem trebuie sa aibe un singur uri
+constrangeri arhitecturale
+identificarea interfetelor
+manipularea resurselor folosind reprezentarile
+mesajele ce se descriu pe sine
+hypermedia ca si motor al starii aplicatiei
+2. Client-server - trebuie sa functioneze independent
+3. stateless - nu este istoric cereri independente
+4. Cacheable - reduce cererile dintre client si server
+5. Layered system - un client nu stie ca comunica cu serverul in sine sau cu intermediar
+6. Code on demand 
+
+
+Stateless REST
+Constrangerea stateless se bazeaza pe a nu retine informatii despre clienti, 
+adica sunt doar cereri si raspunsuri independente.
+
+
+Brokeri mesaje
+Un broker de mesaje asigura trimiterea unui mesaj catre o destinatie specificata in
+mod asincron. (Mai logic) Expeditorul trimite un mesaj, broker-ul ia mesajul in mod 
+asincron si il trimite la destinatie, iar expeditorul nu asteapta raspuns, deci poate 
+sa faca altceva. Prin asincronitate mesajele vor fi trimise garantat :D.
+
+
+Inversion of Control (Dependency Injection)
+Acest principiu este opus de metoda traditionala, unde daca un obiect are nevoie de un
+alt obiect, atunci el trebuie sa se ocupe cu crearea dependentei. Adica obiectul de care
+depinde va fi "injectat" in primul obiect.
+
+
+Point to point asincron
+Prin acest model, avem un expeditor care trimite un mesaj propriu unui destinatar si o destinatie 
+(in cazul de fata destinatie este o coada), iar mai multi destinatari verifica periodic acea coada. 
+Daca unul din destinatari gaseste mesajul lui, atunci de asemenea il va sterge din coada.

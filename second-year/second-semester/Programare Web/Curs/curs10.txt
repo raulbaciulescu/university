@@ -1,0 +1,21 @@
+AJAX
+- permite actualizarea dinamica a dom ului unui document, cu un continut ce vine de pe server fara sa si faca full refresh 
+- actualizarea partiala a unui document
+- prin format json, xml
+
+intrebare de examen!! diferenta dintre name si id
+daca vrem sa facem submit, si se folosestele numele inputului ce se imperecheaza cu valoarea ca sa faca querystringul
+id il folosim ca sa stilizam sau ca sa il luam din javascript
+
+0 - cand ii construit si nu fac nimic cu el
+1 - dupa ce fac open
+2 - dupa ce fac send 
+3 - cand incep sa mi vina date(poate sa fie mai mult timp...)
+4 - a venit raspunsul, nu stim daca cu succes sau nu
+ne uitam cu readyState
+
+onreadystatechange = se apeleaza cand ajax ul isi schimba starea
+
+la formular post
+pt ca am parola
+pt ca am multe date

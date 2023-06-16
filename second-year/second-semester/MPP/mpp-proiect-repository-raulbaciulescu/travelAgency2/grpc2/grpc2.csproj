@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>default</LangVersion>
+        <TargetFramework>net6.0-windows</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Protos\greet.proto" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.Protobuf" Version="3.20.0" />
+      <PackageReference Include="Grpc.Net.Client" Version="2.44.0" />
+      <PackageReference Include="Grpc.Tools" Version="2.45.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="System.Reactive.Windows.Forms" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\client\client.csproj" />
+      <ProjectReference Include="..\model\model.csproj" />
+      <ProjectReference Include="..\services\services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="PurchaseForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="MainForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="LoginForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.monitoringsystem.controller.AdminController">
+   <children>
+      <TableView fx:id="tableView" layoutX="97.0" layoutY="90.0" prefHeight="200.0" prefWidth="606.0">
+        <columns>
+          <TableColumn fx:id="tableColumnUsername" prefWidth="75.0" text="username" />
+          <TableColumn fx:id="tableColumnPassword" prefWidth="75.0" text="password" />
+            <TableColumn fx:id="tableColumnFirstName" prefWidth="132.8000030517578" text="first name" />
+            <TableColumn fx:id="tableColumnLastName" prefWidth="157.60003662109375" text="last name" />
+            <TableColumn fx:id="tableColumnIsBoss" prefWidth="165.59991455078125" text="is boss" />
+            <TableColumn fx:id="tableColumnId" prefWidth="165.59991455078125" text="id" />
+        </columns>
+      </TableView>
+      <Text layoutX="273.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Accounts" textAlignment="CENTER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnAdd" layoutX="307.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#onAddBtnClick" text="add" />
+      <Button fx:id="btnDelete" layoutX="445.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#onDeleteBtnClick" text="delete" />
+   </children>
+</AnchorPane>

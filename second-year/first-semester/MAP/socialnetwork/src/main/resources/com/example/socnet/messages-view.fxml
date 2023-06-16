@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socnet.controller_fx.MessageController">
+   <ListView fx:id="listViewMessages" layoutX="222.0" layoutY="46.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0" />
+   <TextField fx:id="textFieldMessage" layoutX="104.0" layoutY="360.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0" />
+   <Button fx:id="btnSendMessage" layoutX="513.0" layoutY="360.0" mnemonicParsing="false" onAction="#onSendMessage" text="Send" AnchorPane.rightAnchor="20.0" />
+   <Button fx:id="btnGoBack" layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" />
+   <Button fx:id="btnReadMore" layoutX="507.0" layoutY="14.0" mnemonicParsing="false" onAction="#readMore" text="Read More" />
+</AnchorPane>

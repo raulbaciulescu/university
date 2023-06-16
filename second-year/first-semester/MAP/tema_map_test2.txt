@@ -1,0 +1,17 @@
+am de facut cerinta 3 pt lab
+
+de verificat cerinta 12
+
+[Factory Method Pattern] = un tipar care creaza un obiect fara sa specificam exact
+				 clasa obiectului care va fi creat
+[Singleton Pattern] = un tipar prin care clasa are un singur obiect/instanta
+[Decorator Pattern] = https://en.wikipedia.org/wiki/Decorator_pattern
+
+cand vad decorator ma gandesc la curs cand o zis profa ca e ca la un brad pe care tot punem 
+decoratiuni(AbstractTaskRunner brad, printer si delay sunt decoratiunile!!)
+
+
+sa invat ce e static in java
+
+de exemplu la combinari unde avem mai multe avem predicat nedeterminism
+de obicei determinism cu o solutie

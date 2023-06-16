@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="522.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+
+    <Text layoutX="34.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flights available" textAlignment="CENTER" AnchorPane.topAnchor="20.46875">
+        <font>
+            <Font size="32.0" />
+        </font>
+    </Text>
+    <Button fx:id="btnLogout" layoutX="653.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#onLogoutBtnClick" text="Logout" />
+    <TableView fx:id="tableView" layoutX="34.0" layoutY="73.0" prefHeight="280.0" prefWidth="676.0">
+        <columns>
+            <TableColumn fx:id="tableColumnStart" prefWidth="187.0" text="Start" />
+            <TableColumn fx:id="tableColumnDestination" prefWidth="206.0" text="Destination" />
+            <TableColumn fx:id="tableColumnStartDate" prefWidth="183.0" text="Start Date" />
+            <TableColumn fx:id="tableColumnNrOfSeats" prefWidth="98.0" text="Nr Of Seats" />
+            <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Column X" />
+        </columns>
+    </TableView>
+    <TextField fx:id="txtFieldDestination" layoutX="50.0" layoutY="384.0" />
+   <DatePicker fx:id="datePicker" layoutX="50.0" layoutY="421.0" />
+   <Button fx:id="btnSearch" layoutX="50.0" layoutY="469.0" onMouseClicked="#onSearchBtnClicked" text="Search" />
+   <Button fx:id="btnPurchase" layoutX="164.0" layoutY="469.0" mnemonicParsing="false" onMouseClicked="#onPurchaseBtnClicked" text="Purchase" />
+   <Text fx:id="errors" fill="RED" layoutX="46.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Something went wrong!" textAlignment="CENTER" visible="false" wrappingWidth="157.8203125" />
+</AnchorPane>

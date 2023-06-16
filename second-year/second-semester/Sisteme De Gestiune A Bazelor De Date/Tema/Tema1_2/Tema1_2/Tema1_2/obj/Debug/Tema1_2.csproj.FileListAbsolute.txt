@@ -1,0 +1,11 @@
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\bin\Debug\Tema1_2.exe.config
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\bin\Debug\Tema1_2.exe
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\bin\Debug\Tema1_2.pdb
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.csproj.AssemblyReference.cache
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.Properties.Resources.resources
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.csproj.GenerateResource.cache
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.csproj.CoreCompileInputs.cache
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.exe
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.pdb
+D:\Facultate\SGBD\Tema\Tema1_2\Tema1_2\Tema1_2\obj\Debug\Tema1_2.Form1.resources

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready (function(){
+            $('select').on('click keypress', () =>{
+                console.log('event trigger');
+            })
+            setTimeout(() => {$( 'select' ).off( 'click' );}, 5000);
+        });
+    </script>
+</head>
+<body>
+<select style="height: 200px; width: 200px;" size="5">
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+</select>
+</body>
+</html>

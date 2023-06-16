@@ -1,0 +1,6 @@
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\model\bin\Debug\model.dll
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\model\bin\Debug\model.pdb
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\model\obj\Debug\model.csproj.AssemblyReference.cache
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\model\obj\Debug\model.dll
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\model\obj\Debug\model.pdb

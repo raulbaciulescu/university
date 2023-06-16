@@ -1,0 +1,93 @@
+img {
+    display: block;
+}
+#img1 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 0 84px;
+}
+#img2 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 84px 84px;
+}
+
+#img3 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 168px 84px;
+}
+#img4 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 252px 84px;
+}
+#img5 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 336px 84px;
+}
+#img6 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 420px 84px;
+}
+#img7 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 504px 84px;
+}
+#img8 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 588px 84px;
+}
+#img9 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 672px 84px;
+}
+#img10 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 756px 84px;
+}
+#img11 {
+    width: 84px;
+    height: 84px;
+    background: url(social.png) 840px 84px;
+}
+#img1:hover {
+    background: url(social.png) 0 0;
+}
+#img2:hover {
+    background: url(social.png) 84px 0;
+}
+
+#img3:hover {
+    background: url(social.png) 168px 0;
+}
+#img4:hover {
+    background: url(social.png) 252px 0;
+}
+#img5:hover {
+    background: url(social.png) 336px 0;
+}
+#img6:hover {
+    background: url(social.png) 420px 0;
+}
+#img7:hover {
+    background: url(social.png) 504px 0;
+}
+#img8:hover {
+    background: url(social.png) 588px 0;
+}
+#img9:hover {
+    background: url(social.png) 672px 0;
+}
+#img10:hover {
+    background: url(social.png) 756px 0;
+}
+#img11:hover {
+    background: url(social.png) 840px 0;
+}

@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+input {
+    border: solid 1px dimgrey;
+    background: repeating-linear-gradient(90deg, white 0px, white 19px, black 20px);
+    /*background: repeating-linear-gradient(90deg, red, red 5px, blue 5px, blue 10px);*/
+    color: dimgrey;
+    letter-spacing: 1.74ch;
+    font-family: monospace;
+}
+
+#first_name {
+    width: 200px;
+}
+
+#last_name {
+    width: 200px;
+}
+#cnp {
+    width: 200px;
+}
+

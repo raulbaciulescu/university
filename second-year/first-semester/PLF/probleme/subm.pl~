@@ -1,0 +1,7 @@
+%subm(L: list, Rez: list)
+%(i, o) - nedeterminist
+subm([], []).
+subm([_|T], Rez):-
+    subm(T, Rez).
+subm([H|T], [H|Rez]):-
+    subm(T, Rez).

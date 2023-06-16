@@ -1,0 +1,33 @@
+
+
+lab2 iss
+- pot scrie pe teams la prof!!!!!!
+- diagrama cazurilor de utilizare - descriere textuala
+- descrierea fiecarui caz de utilizare utilizand sablonul
+- planificarea pe iteratii, 3 culori it1, it2, it3
+- pagina prof pt sabloane
+- modelul conceptual - entitati si relatiile dintre ele
+- nu contine repo controller
+- prototipul interfetei grafice
+- scene builder
+- pt web: drop.io
+- pot si pt web in scenebuilder
+- nu e ok pix pe foaie!!!!
+- trebuie sa iasa mai mult de 5 6 cazuri de utilizare
+- vad comenzile/ modifica / adauga /sterg o comanda//sterg => 4 cazuri de utilizare
+
+lab 10
+faza 3
+la fel cu faza 2 doar ca pt ambele iteratii
+diagrame de secventa, minim 3 diagrame de comunicare!
+
+cel putin 3 de secv, cel putin 3 de comunicare la final!
+
+
+
+sterg din service din diagrama de clase repo-ul, si il pun la capatul cu userrepo,
+ 1 userreppo
+
+lab 12
+- nu e ok sa am asociere intre user si userepo din cauza metodei getAll in userRepo
+- relatia corecta e de dependenta....daca sterg userul nu mai merge getAll

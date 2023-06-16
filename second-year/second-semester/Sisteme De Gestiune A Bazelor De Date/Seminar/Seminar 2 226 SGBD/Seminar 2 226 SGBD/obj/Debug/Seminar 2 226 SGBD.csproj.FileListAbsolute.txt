@@ -1,0 +1,21 @@
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe.config
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.pdb
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csprojAssemblyReference.cache
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Form1.resources
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Properties.Resources.resources
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.GenerateResource.cache
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.CoreCompileInputs.cache
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.exe
+C:\Users\andor\source\repos\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.pdb
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe.config
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.exe
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\bin\Debug\Seminar 2 226 SGBD.pdb
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.AssemblyReference.cache
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Form1.resources
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar_2_226_SGBD.Properties.Resources.resources
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.GenerateResource.cache
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.csproj.CoreCompileInputs.cache
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.exe
+D:\Facultate\SGBD\Seminar\Seminar 2 226 SGBD\Seminar 2 226 SGBD\obj\Debug\Seminar 2 226 SGBD.pdb

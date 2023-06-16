@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using travelAgency2.src.Domain;
+
+namespace travelAgency2.Domain.Dto
+{
+    internal class FlightDto : Entity<long>
+    {
+
+        public long startId { get; set; }
+        public long destinationId { get; set; }
+        public DateTime startDate { get; set; }
+        public int nrOfSeats { get; set; }
+
+        public FlightDto(long id, long startId, long destinationId, DateTime startDate, int nrOfSeats) : base(id)
+        {
+            this.startId = startId;
+            this.destinationId = destinationId;
+            this.startDate = startDate;
+            this.nrOfSeats = nrOfSeats;
+        }
+
+
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.Cerinta1Controller">
+
+   <Button layoutX="502.0" layoutY="345.0" mnemonicParsing="false" onAction="#adaugaTema" text="Adauga" />
+   <VBox layoutX="108.0" layoutY="34.0" prefHeight="200.0" prefWidth="254.0">
+      <children>
+         <HBox prefHeight="31.0" prefWidth="100.0">
+            <children>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nota" />
+               <TextField fx:id="fieldNota" />
+            </children>
+         </HBox>
+         <HBox prefHeight="22.0" prefWidth="254.0">
+            <children>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tema" />
+               <TextField fx:id="fieldTema" />
+            </children>
+         </HBox>
+         <HBox prefHeight="26.0" prefWidth="200.0">
+            <children>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student" />
+               <TextField fx:id="fieldStudent" />
+            </children>
+         </HBox>
+      </children>
+   </VBox>
+</AnchorPane>

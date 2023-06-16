@@ -1,0 +1,14 @@
+D:\Facultate\MAP\c###\sem11_12\sem11_12\bin\Debug\netcoreapp2.0\sem11_12.dll.config
+D:\Facultate\MAP\c###\sem11_12\sem11_12\bin\Debug\netcoreapp2.0\sem11_12.deps.json
+D:\Facultate\MAP\c###\sem11_12\sem11_12\bin\Debug\netcoreapp2.0\sem11_12.runtimeconfig.json
+D:\Facultate\MAP\c###\sem11_12\sem11_12\bin\Debug\netcoreapp2.0\sem11_12.runtimeconfig.dev.json
+D:\Facultate\MAP\c###\sem11_12\sem11_12\bin\Debug\netcoreapp2.0\sem11_12.dll
+D:\Facultate\MAP\c###\sem11_12\sem11_12\bin\Debug\netcoreapp2.0\sem11_12.pdb
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.csproj.AssemblyReference.cache
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.AssemblyInfoInputs.cache
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.AssemblyInfo.cs
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.csproj.CoreCompileInputs.cache
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.dll
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.pdb
+D:\Facultate\MAP\c###\sem11_12\sem11_12\obj\Debug\netcoreapp2.0\sem11_12.genruntimeconfig.cache

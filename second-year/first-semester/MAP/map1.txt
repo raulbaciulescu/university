@@ -1,0 +1,147 @@
+package service;
+
+import domain.model.Message;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import repository.Repository;
+
+import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Optional;
+
+public record MessageService(@NotNull Repository<Integer, Message> messageRepository) {
+
+    public void add(final long senderID, final int chatID, @NotNull final String body, @Nullable final Integer replyID)
+            throws SQLException {
+        final Message message = new Message(senderID, chatID, body, replyID);
+        this.messageRepository.add(message);
+    }
+
+    @NotNull
+    public Optional<Message> findByID(final int id) throws SQLException {
+        return this.messageRepository.findByID(id);
+    }
+
+    public void update(final int id, @NotNull final String body)
+            throws SQLException {
+        final Optional<Message> oldMessage = this.findByID(id);
+        if (oldMessage.isPresent()) {
+            final Message message = new Message(
+                    id,
+                    oldMessage.get().getSenderID(),
+                    oldMessage.get().getChatID(),
+                    body,
+                    LocalDateTime.now(),
+                    oldMessage.get().getReplyID());
+            this.messageRepository.update(message);
+        }
+    }
+
+    public void delete(final int id) throws SQLException {
+        this.messageRepository.delete(id);
+    }
+
+    @NotNull
+    public ArrayList<Message> getAll() throws SQLException {
+        return this.messageRepository.getAll();
+    }
+}
+
+
+package domain.model;
+
+import org.jetbrains.annotations.Nullable;
+
+import java.time.LocalDateTime;
+
+public class Message extends Entity<Integer> {
+
+    private final long senderID;
+    private final int chatID;
+    private String body;
+    private final LocalDateTime timestamp;
+    @Nullable private final Integer replyID;
+
+    public Message(final long senderID,
+                   final int chatID,
+                   final String body) {
+        this(senderID, chatID, body, null);
+    }
+
+    public Message(final long senderID,
+                   final int chatID,
+                   final String body,
+                   @Nullable final Integer replyID) {
+        this.senderID = senderID;
+        this.chatID = chatID;
+        this.body = body;
+        this.timestamp = LocalDateTime.now();
+        this.replyID = replyID;
+    }
+
+    public Message(final int id,
+                   final long senderID,
+                   final int chatID,
+                   final String body,
+                   final LocalDateTime timestamp,
+                   @Nullable final Integer replyID) {
+        this.setId(id);
+        this.senderID = senderID;
+        this.chatID = chatID;
+        this.body = body;
+        this.timestamp = timestamp;
+        this.replyID = replyID;
+    }
+
+    public final long getSenderID() {
+        return senderID;
+    }
+
+    public final int getChatID() {
+        return chatID;
+    }
+
+    public final String getBody() {
+        return body;
+    }
+
+    public final void setBody(final String body) {
+        this.body = body;
+    }
+
+    public final LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
+    @Nullable
+    public final Integer getReplyID() {
+        return replyID;
+    }
+
+    @Override
+    public String toString() {
+        return  "#" + this.getId() + " from " + this.senderID + " " + this.body +
+                (this.replyID != null ? " replied to: " + this.replyID : "");
+    }
+}
+    @Override
+    public @NotNull Optional<Message> fromResultSet(@NotNull final ResultSet resultSet) throws SQLException {
+        if (!resultSet.next()) {
+            return Optional.empty();
+        }
+        final int id = resultSet.getInt(1);
+        final long senderID = resultSet.getLong(2);
+        final int chatID = resultSet.getInt(3);
+        final String body = resultSet.getString(4);
+        final LocalDateTime timestamp = LocalDateTime
+                .parse(resultSet.getString(5));
+        @Nullable Integer replyID = null;
+        try {
+            replyID = Integer.parseInt(resultSet.getString(6));
+        } catch (Exception ignored) {}
+
+        //final Message message = new Message(id, senderID, chatID, body, timestamp, replyID);
+        //return Optional.of(message);
+        return null;
+    }

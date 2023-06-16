@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.monitoringsystem.controller.BossController">
+   <children>
+      <Text layoutX="277.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Employees" textAlignment="CENTER">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tableView" layoutX="60.0" layoutY="92.0" prefHeight="272.0" prefWidth="679.0">
+        <columns>
+          <TableColumn fx:id="tableColumnId" prefWidth="344.0" text="Employee" visible="false" />
+          <TableColumn fx:id="tableColumnUsername" prefWidth="344.0" text="Employee" />
+          <TableColumn fx:id="tableColumnDate" prefWidth="335.20001220703125" text="Login date" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnLogout" layoutX="685.0" layoutY="47.0" mnemonicParsing="false" onMouseClicked="#onBtnLogoutClick" text="Logout" />
+      <Button fx:id="btnAddTask" layoutX="229.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#onBtnAddTaskClick" text="Add task" />
+      <TextField fx:id="txtDescription" layoutX="60.0" layoutY="392.0" promptText="description" />
+      <Text fx:id="errors" fill="#d90e0e" layoutX="60.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You should select an employee!" visible="false" wrappingWidth="232.53671264648438" />
+      <Button fx:id="btnTasks" onMouseClicked="#onBtnTasksClick" layoutX="311.0" layoutY="392.0" mnemonicParsing="false" text="Tasks" />
+
+   </children>
+</AnchorPane>

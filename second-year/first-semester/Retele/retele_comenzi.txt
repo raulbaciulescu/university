@@ -1,0 +1,87 @@
+Lab 8
+
+? e ca un help
+enable
+show vlan brief -- sh vl br
+configure terminal
+vlan 10
+name DEVELOPMENT
+exit uri
+
+
+
+copy running-config startup-config = write = wr
+interface fastEthernet 0/1
+switchport mode access 
+switchport access vlan 10
+
+
+interface range fastEthernet 0/2 - 10
+
+
+Lab 9
+in switch 1
+vtp mode server
+interface fastEthernet 0/24
+switchport mode trunk
+vtp domain TEST in conf term
+show vtp status
+
+in switch 2
+conf term
+interface fastEthernet 0/1
+switchport mode trunk
+exit
+vtp mode client
+show vtp status
+sh vl br
+
+
+
+Lab 11
+conf term ->ip dhcp pool MY_POOL
+network 191.10.18.0 255.255.255.0
+default-router 191.10.18.1
+ca sa vad modificarile: show running-config
+ca sa salvez: copy running-config startup-config
+
+show ip route --- arata tabela de routare
+ip route 191.10.19.0 255.255.255.192 191.10.19.194    destinatie    gateway
+no ip route 191.10.19.0 255.255.255.192 191.10.19.194
+
+
+router rip apoi:
+network  191.10.18.0
+network  191.10.19.0
+network  191.10.19.200
+version 2
+
+
+
+Lab 12
+gateway of last resort
+ip route 0.0.0.0 0.0.0.0 191.10.19.206  //asta e pentru Router 2
+
+
+pt dns server 
+ip dhcp pool MY_POOL
+dns-server 191.10.19.70
+
+
+pt nat pe Router 1
+ip dhcp pool MY_POOL
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1 ----pt gateway
+
+
+interface fastEthernet 0/0
+ip nat inside
+
+interface fastEthernet 1/0
+ip nat outside
+
+ip nat inside source static 192.168.1.2 191.10.19.194
+debug ip nat
+
+access-list 1 permit 192.168.1.0 0.0.0.255
+ip nat inside source list 1 interface fastEthernet 1/0 overload

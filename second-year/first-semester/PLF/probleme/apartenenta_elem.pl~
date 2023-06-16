@@ -1,0 +1,4 @@
+%(i,i) - determinist, (o,i) - nedeterminist
+member2(E,[E|_]):-!.
+member2(E,[_,L]):-member2(E,L).
+

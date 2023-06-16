@@ -1,0 +1,140 @@
+
+
+
+clasa Socket(string host, int port)!!! cu varianta asta facem
+inetAddress ipv4, ipv6
+getPort!!
+
+try with resources- se inchide singur
+
+run() nu primeste param, nu intoarce nimic
+implementez Runnaable sau cu thread?!
+
+
+doar cu start isi incepe threadul executia
+
+sincronizare:
+ca parametru trebuie sa fie extins din Object, ma asigur ca am aceasi referinta catre obiect
+si asupra unui obiect si asupra unei metode
+
+in java 5:
+- concurrent
+
+Taskuri -- din interfata Runnable cu run()
+	-- interfata Callable cu functia call care ma lasa sa returnez si arunca exceptie
+
+ExecutorService = container de threaduri
+	Future = rezultatul eventual al threadului, asta nu inseamna ca threadu s a incheiat
+	imi dau seama cu ajutorul lui Future
+invokeAll pt mai multe threaduri rezultatul primului task incheiat!!!
+-shutdownNow = nu mai executa pana la n, 'doar pana la c3'
+ shutDown = nu mai putem adauga callable, le executa pe toate alocate
+- trebuie neaparat sa apelez una din ele!!
+
+
+interfata Future ??????????
+get!! uatafac
+clasa EXecutors, in uml metodele statice se subliniaza
+newFixedThreadPoo(int nThreads)
+
+BlockingQueue - coada concurenta ????
+	      - nu arunca exceptie!! doar daca sunt probleme de comunicare
+	      - asteapta
+	      - pot actualiza gui doar de pe acel thread!! si la java si c#
+runLater() {ce vreau sa modific pe gui} sau cu runLater
+server secvential, server concurent??????
+
+slide cu server template--- serializare
+
+
+
+
+flush() ma asigura ca s a trimis!
+folosesc la amandoua cu acelasi lucru readLine! printline
+
+mai intai creez cel de out, cu flush, dupa cel de in!
+
+
+
+
+Partea comuna: si clientu si serveru au accces la aceasta interfata
+interfata de service
+login(user)
+sendMessage(Message)
+logout(User)
+tot ce poate clientu sa apeleze
+
+
+pe server
+ServiceImpl
+se foloseste de repo - interfetele din repo
+
+ServicesProxy
+
+
+
+proxy = unde e serveru, cum comunica cu serveru
+
+
+
+
+controler ----> Proxy => worker
+
+proxy comunica cu worker
+1    login:ana:dada123 =>
+2    ce trimit inapoi
+transmit prin socketuri obiecte serializate
+
+din Request     pun ce am interfata din servicii, am avea o clasa noua
+LoginRequest
+LogoutRequest
+SendMessage request 
+
+Response ---- pt fiecare cerere sa am un raspuns!!!
+
+
+b     Server        a
+		<------ hello b           cum fac sa ajunga la a fara sa apas buton
+
+
+- am un socket intre a si socket
+- mai am un socket intre b si socket 
+- in server lista cu utilizatorii care utilizeaza in acel moment
+- il gaseste pe b conectat
+- fiecare utlizator va avea un thread = responsabilitate sa citeasca tot ce ii trimite serverul
+
+
+updateResponse   e o notificare pentru care nu am facut nimic??
+- ca s a cumparat un bilet...etc
+- 
+
+
+proiecte
+1. model Comune
+2. client  
+3. server
+
+un proiect parinte  cu src gol
+
+client depinde de model
+serverul depinde de model
+
+model profa
+1. model
+2. services --
+3. persistenta/repo
+4. server
+5. client
+6. network
+
+
+servicii depind de model
+server depinde de serviceii
+client depinde de servicii
+networking depinde de servicii
+networking comunica cu server?!
+
+
+
+
+Proxy

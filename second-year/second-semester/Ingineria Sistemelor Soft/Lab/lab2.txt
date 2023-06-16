@@ -1,0 +1,15 @@
+
+
+lab2 iss
+- diagrama cazurilor de utilizare - descriere textuala
+- descrierea fiecarui caz de utilizare utilizand sablonul
+- planificarea pe iteratii, 3 culori it1, it2, it3
+- pagina prof pt sabloane
+- modelul conceptual - entitati si relatiile dintre ele
+- nu contine repo controller
+- prototipul interfetei grafice
+- scene builder
+- pt web: drop.io
+- pot si pt web in scenebuilder
+- nu e ok pix pe foaie!!!!
+- 

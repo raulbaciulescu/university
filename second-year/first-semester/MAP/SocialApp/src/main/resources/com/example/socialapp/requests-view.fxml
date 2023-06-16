@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.socialapp.controller.FriendshipRequestController"
+            prefHeight="400.0" prefWidth="600.0">
+
+
+    <ListView fx:id="lvFriendRequests" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="573.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="100.0" />
+
+    <Text layoutX="196.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Friend Requests" AnchorPane.topAnchor="20.0">
+        <font>
+            <Font size="32.0" />
+        </font>
+    </Text>
+
+    <Button fx:id="btnGoBack" layoutX="20.0" layoutY="353.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" />
+    <Button fx:id="btnAccept" layoutX="528.0" layoutY="342.0" mnemonicParsing="false" onAction="#acceptRequest" text="Accept" visible="false" />
+
+</AnchorPane>

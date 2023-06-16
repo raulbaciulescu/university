@@ -1,0 +1,7 @@
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\bin\Debug\Seminar1226SGBD.exe.config
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\bin\Debug\Seminar1226SGBD.exe
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\bin\Debug\Seminar1226SGBD.pdb
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\obj\Debug\Seminar1226SGBD.csprojAssemblyReference.cache
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\obj\Debug\Seminar1226SGBD.csproj.CoreCompileInputs.cache
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\obj\Debug\Seminar1226SGBD.exe
+C:\Users\andor\source\repos\Seminar1226SGBD\Seminar1226SGBD\obj\Debug\Seminar1226SGBD.pdb

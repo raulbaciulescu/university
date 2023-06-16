@@ -1,0 +1,57 @@
+%maxim(L:list, C: Integer, Max:Integer)
+%L: lista in care cautam maximul
+%C: variabila colectoare pentru maxim
+%Max: maximul listei L
+%(i,i), (i,o) - determinist
+maxim([], R, R).
+maxim([H|T], C,R):-
+    H >= C,
+    maxim(T, H, R),
+    !.
+maxim([_|T], C, R):-
+    maxim(T, C, R).
+maxim([H|T], R):-
+    maxim(T, H, R).
+
+
+%poz_aux(L: list, I: integer, Maxim: Integer, Rez: list)
+%L: lista din care se verifica egalitatea cu maximul
+%I: pozitia elementelor in lista
+%M: maximul cu care se compara elementele din lista L
+%Rez: Lista rezultata cu pozitiile i
+poz_aux([], _, _, []):-!.
+poz_aux([H|T], I, M, [I|Rez]):-
+    M == H,
+    I1 is I + 1,
+    poz_aux(T, I1, M, Rez),!.
+poz_aux([_|T], I, M, Rez):-
+    I1 is I + 1,
+    poz_aux(T, I1, M, Rez).
+%poz_aux(L: list, Rez: list)
+%L: lista din care se verifica egalitatea cu maximul
+%Rez: Lista rezultata cu pozitiile i
+poz(L, Rez):-
+    maxim(L, M),
+    poz_aux(L, 1, M, Rez).
+
+
+%inlocuire(L: list eterogena, Rez: lista eterogena)
+%L: lista pe care se face operatiunea de inlocuire
+%Rez: lista rezultata operatiei
+%(i,o), (i, i) - determinist
+inlocuire([], []):-!.
+inlocuire([H|T], [H|Rez]):-
+    number(H),
+    inlocuire(T, Rez).
+inlocuire([H|T], [X|Rez]):-
+    poz(H, X),
+    inlocuire(T, Rez).
+
+
+
+
+
+
+
+
+

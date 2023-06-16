@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contract de studii</title>
+</head>
+    <body>
+        <div>
+                <span>
+                     Contract de studii
+                </span>
+            <span>
+                    <img src="ubb.png" alt="university image">
+                </span>
+        </div>
+        <div>
+            <form>
+                <table>
+                    <tr>
+                        <td></td>
+                        <th colspan="2">
+                            <strong> Date despre student </strong>
+                        </th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" >
+                            <label for="lname"> Nume: </label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                        </td>
+                        <td colspan="2" >
+                                <label for="fname"> Prenume: </label>
+                                <input type="text" id="fname" name="fname"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="seria"> Seria: </label>
+                            <input type="text" id="seria" name="seria"><br><br>
+                        </td>
+                        <td >
+                            <label for="numar"> Numarul: </label>
+                            <input type="number" id="numar" name="numar" min="1" max="10" step="3"><br><br>
+                        </td>
+                        <td >
+                            <label for="cnp"> Cnp: </label>
+                            <input type="text" id="cnp" name="cnp"><br><br>
+                        </td>
+                        <td>
+                            <label for="emis"> Emis la: </label>
+                            <input type="text" id="emis" name="emis"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" >
+                            <label for="email" > Email: </label>
+                            <textarea id="email" name="email" cols="130" rows="2" ></textarea><br><br>
+                        </td>
+                        <td>
+                            <label for="semnatura"> Semnatura: </label>
+                            <input type="text" id="semnatura" name="semnatura" value="--" readonly><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="nr_matricol"> Numar matricol: </label>
+                            <input type="text" id="nr_matricol" name="nr_matricol"><br><br>
+                        </td>
+                        <td colspan="2">
+                            <label>
+                                Masculin
+                                <input type="radio" id="masculin" name="masculin" value="masculin">
+                            </label>
+                            <label>
+                                Feminin
+                                <input type="radio" id="feminin" name="feminin" value="feminin" checked>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="tara"> Tara: </label>
+                            <input type="text" id="tara" name="tara" disabled><br><br>
+                        </td>
+                        <td colspan="2">
+                            <label for="oras" > Oras: </label>
+                            <input type="text" id="oras" name="oras" maxlength="10"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <p>Pentru anul universitar 2020/2021 doresc sa ma inscriu la urmatoarele cursuri: </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Nr. </td>
+                        <td> Cod </td>
+                        <td> Nume Materie</td>
+                        <td> Nr Credite </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <fieldset>
+                                            <legend>Semestrul 1:</legend>
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <label for="nr"></label>
+                                                        <input type="text" id="nr" name="nr">
+
+                                                        <br>
+                                                    </td>
+                                                    <td>
+                                                        <label for="cod"></label>
+                                                        <input type="text" id="cod" name="cod">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nume_materie"></label>
+                                                        <input type="text" id="nume_materie" name="nume_materie">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nr_credite"></label>
+                                                        <input type="text" id="nr_credite" name="nr_credite">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="nr1"></label>
+                                                        <input type="text" id="nr1" name="nr">
+                                                        <br>
+                                                    </td>
+                                                    <td>
+                                                        <label for="cod1"></label>
+                                                        <input type="text" id="cod1" name="cod">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nume_materie1"></label>
+                                                        <input type="text" id="nume_materie1" name="nume_materie">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nr_credite1"></label>
+                                                        <input type="text" id="nr_credite1" name="nr_credite">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <fieldset>
+                                            <legend>Semestrul 2:</legend>
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <label for="nr3"></label>
+                                                        <input type="text" id="nr3" name="nr">
+
+                                                        <br>
+                                                    </td>
+                                                    <td>
+                                                        <label for="cod3"></label>
+                                                        <input type="text" id="cod3" name="cod">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nume_materie3"></label>
+                                                        <input type="text" id="nume_materie3" name="nume_materie">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nr_credit3"></label>
+                                                        <input type="text" id="nr_credit3" name="nr_credite">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <label for="nr4"></label>
+                                                        <input type="text" id="nr4" name="nr">
+
+                                                        <br>
+                                                    </td>
+                                                    <td>
+                                                        <label for="cod4"></label>
+                                                        <input type="text" id="cod4" name="cod">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nume_materie4"></label>
+                                                        <input type="text" id="nume_materie4" name="nume_materie">
+                                                    </td>
+                                                    <td>
+                                                        <label for="nr_credite4"></label>
+                                                        <input type="text" id="nr_credite4" name="nr_credite">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2" >
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday" >
+                        </td>
+                        <td colspan="2">
+                            <label for="an_studiu"></label>
+                            <select name="an_studiu" id="an_studiu" size="3" multiple>
+                                <option value="an1">an 1</option>
+                                <option value="an2">an 2</option>
+                                <option value="an3" selected>an 3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <a href="http://www.cs.ubbcluj.ro/" target="_blank"> <b> Site-ul facultatii </b></a>
+                        </td>
+                    </tr>
+                </table>
+
+                <p>
+                    Studenții care nu pot sa opteze pentru unul din cursurile opționale oferite de facultatea noastră, au posibilitatea
+                    de a opta pentru unul din cursurile opționale oferite de următoarele facultăți care au ales scenariul online:
+                </p>
+                <ul>
+                    <li>Facultatea de Matematică și Informatică</li>
+                    <li>Facultatea de Geografie</li>
+                    <li>Facultatea de Drept</li>
+                </ul>
+                <p> 5.2. Obligațiile UNIVERSITĂŢII sunt: </p>
+                <ol start="11" type="i">
+                    <li>
+                        organizează activități educaționale, inclusiv cele de practică şi de verificare a cunoștințelor, la nivel
+                        universitar, în conformitate cu prevederile legale şi cu normele interne adoptate în baza autonomiei
+                        universitare;
+                    </li>
+                    <li>încheie cu studentul, înainte de data începerii fiecărui an universitar, contractul de studii anual care
+                        cuprinde activitățile educaționale pe care studentul se obligă să le parcurgă şi numărul de credite
+                        aferent fiecăreia dintre aceste activități;</li>
+                </ol>
+                <p> 5.1. Drepturile UNIVERSITĂŢII sunt:
+
+                </p>
+                <ol type="A">
+                    <li>
+                        stabilește condițiile de înscriere, înmatriculare, școlarizare, întrerupere, exmatriculare, reînscriere şi
+                        reînmatriculare la studii a studentului;
+                    </li>
+                    <li>supraveghează şi urmărește modul în care studentul își respectă obligațiile contractuale asumate prin
+                        prezentul contract şi prin alte contracte încheiate cu universitatea;</li>
+                </ol>
+                <p>
+                    5.3. Drepturile STUDENTULUI sunt:
+                </p>
+                <ol>
+                    <li>
+                        participă la activitățile didactice şi de pregătire profesională prevăzute în planul de învățământ;
+                    </li>
+                    <li>
+                        face parte din comunitatea universitară, în conformitate cu prevederile legale în vigoare;
+                        <ul>
+                            <li>
+                                susține, în sesiunile programate, examenele şi celelalte forme de verificare a cunoștințelor
+                                dobândite;
+                            </li>
+                            <li>
+                                susține, în sesiunile programate, examenele de finalizare a studiilor
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <label for="check"> Am citit conditiile prezentate mai sus </label>
+                <input type="checkbox" id="check" name="check" value="">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>

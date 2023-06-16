@@ -1,0 +1,16 @@
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\ChatClient.exe
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\ChatClient.pdb
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\model.dll
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\networking.dll
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\services.dll
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\networking.pdb
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\services.pdb
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\bin\Debug\model.pdb
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\client.csproj.AssemblyReference.cache
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\client.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\client.csproj.GenerateResource.cache
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\client.csproj.CoreCompileInputs.cache
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\client.csproj.CopyComplete
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\ChatClient.exe
+D:\Facultate\MPP\Curs\Curs7\ChatSockets\ChatClient\obj\Debug\ChatClient.pdb

@@ -1,0 +1,63 @@
+Specificarea constrangerilor OCL
+
+
+profesor
+--------------
+nume: string
+--------------
+
+
+curs optional
+--------------
+cod: string
+normat: boolean
+--------------
+
+
+pachet
+--------------
+cod_p: string
+--------------
+
+
+student
+--------------
+nr_matricol: string
+nume: string
+--------------
+
+
+context Pachet
+    inv optUnicPerProf: self.optionale->forAll(co1, co2: CursOptional | co1 <> co2 implies co1.titular <> co2.titular)
+    --echivalent
+    inv optUnicPerProf: self.optionale->isUnique(co: CursOptional | co.titular)
+    inv optUnicPerProf: self.optionale->isUnique(co | co.titular)
+    inv optUnicPerProf: self.optionale->isUnique(titular)
+
+
+
+
+2. un curs se normeaza daca numarul de studenti inscrisi e mai mare sau egal decat 20
+
+context CursOptional
+    inv nrMinStudPtNormare: self.normat = true implies self.inscrisi->size() >= 20
+    --echivalent
+    inv nrMinStudPtNormare: inscrisi->size() >= 20
+
+3. un curs normat nu poate avea mai mult de 80 de cursanti (optiuni finale normate)
+
+context Student
+    inv optFinNormate: self.opt_final->forAll(co: CursOptional | co.normat = true)
+    --opt_final->forAll(normat)
+
+4. orice student treebuie sa aibe un optional din fiecare pachet..sa nu aibe din acelasi pachet
+context Student
+    inv optUnicPachet: self.opt_fina->isUnique(pachet) and Pachet.allInstances->size()=opt_final->size()
+
+
+
+
+
+
+
+

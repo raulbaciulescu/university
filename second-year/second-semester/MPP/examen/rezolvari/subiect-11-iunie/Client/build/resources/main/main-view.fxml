@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <TableView fx:id="tableView" layoutX="99.0" layoutY="107.0" prefHeight="313.0" prefWidth="693.0">
+        <columns>
+          <TableColumn fx:id="tableColumnPlayerId" prefWidth="234.0" text="Player Id" />
+          <TableColumn fx:id="tableColumnWord" minWidth="0.0" prefWidth="232.0" text="Word" />
+            <TableColumn fx:id="tableColumnPoints" prefWidth="234.0" text="Points" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtFieldLetter" layoutX="99.0" layoutY="447.0" promptText="Type a letter" />
+      <Button fx:id="btnSelect" layoutX="276.0" layoutY="447.0" mnemonicParsing="false" text="Select" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+rootProject.name = 'examen'
+include 'ExamenModel'
+include 'ExamenPersistence'
+include 'ExamenServer'
+include 'ExamenServices'
+include 'ClientFX'
+include 'RestServices'
+include 'ExamenNetworking'
+

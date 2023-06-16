@@ -1,0 +1,6 @@
+la minutul 9 pe final lab 8 retele
+un router conecteaza mai multe retele intre ele
+un swtich contecteaza mai multe
+huburi au cam acelasi scop ca si switch dar sunt putin mai prostute decat switch urile
+
+hubul trimite la toate si care aparee ca destinatarar il lasa acolo,, la switch merge direct la destinatar

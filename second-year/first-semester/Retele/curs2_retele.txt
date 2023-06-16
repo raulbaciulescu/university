@@ -1,0 +1,99 @@
+Curs 2 - Retele
+
+Protocoale la nivel aplicatie
+-se bazeaza pe un protocol de la transport
+Http, ftp se bazeaza pe tcp??
+
+Nivel Transport:
+TCP = transmision .. protocol
+-face verificari
+
+UDP
+-nu face verificari e mai rapid
+-poate ajunge poate nu ajunge
+-e mai rapid 
+-e preferat
+
+
+Nivel retea(internet)
+Adresa ip
+asigura transmisia pachetelor de la sursa la destinatie
+principiul dirijarii apare la nivel retea
+routerul tot e aici e localizat
+
+Nivel Datalink
+adrese MAC
+cablu utp retea wireless, swichul, 
+Nivel Fizic
+
+Nivel web..e nu e foarte palpabil, e deasupra nivelului aplicatie, tot ce facem, facem pe web(asta e explicatia mna)
+
+
+
+Socket-uri - mecanism de comunicare intre procese care sunt pe 2 calculatoare diferite, permite sa fie pe 2 masini diferite
+
+
+(de la so) 2 procese e normal sa comunice
+ctrl - c
+ctrl - v
+e un mecanism de comunicare intre procese, cu clipboard ceva
+prin intermediul unui fisier
+
+la so: pipe-uri, fifo-uri, semafoare, memorie partajata-mecanism de comunicare intre procese, trebuiau sa fie pe acelasi pc
+
+
+procesele 1(client) si 2(server) sa zicem
+	1			2
+f = open		g = open
+write(f)		read(g)
+read(f)			write(g)
+
+
+- la socketuri am avea send	si 	recv
+- canal de comunicare bidirectional intre 2 procese ce ruleaza pe calculatoare(sisteme) conectate la internet
+socketuri tcp sau udp
+
+- trebuie pornit mai intai serverul(ca un magazin la care merg clientii)
+- servere iterative(trateaza client dupa client-- pe rand)
+- servere concurente cu treduri(in paralel)
+
+
+clientul trebuie sa stie ip-ul serverului
+	Client			Server
+ipc adresa de la client		ips
+cu portul imi dau seama care proces e 
+ip-ul serverului si portul serverului ca sa ma pot conecta
+prin ip tot sistemul
+cu portul specific cu care proces comunic(din cele multe ale sistemului)
+desen la 51:20
+un port poate fi folosit doar de un proces(revendicat)
+
+minut 56!!!!! aici sa ma mai uit
+Client
+A
+T
+R
+DL + F
+
+
+
+C						S
+c = socket				s = socket
+connect(c, ip s, port serv		bind(s, ) - la 1 					ora zice de bind
+(trb sa specific) 			c' = accept(s
+send					recv
+
+- la bind parametrii - prin intermediul lui procesul isi rezerva un port
+
+- 1:13 ip ul si portul sunt trimise ca si intr o structura
+- un calculator poate sa aibe mai multe adrese ip
+
+
+lab2
+peste tcp putem totusi sa ne construim cum vrem noi
+ip - e un identificator unui .. conectat la o retea
+protocol - e de un identificator unui proces(o prostie)
+	e o proprietate a unui socket
+
+
+n am apucat sa vad tot...

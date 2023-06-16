@@ -1,0 +1,59 @@
+pop0 = {} are un pop size = k
+generare_pop_initiala(pop0)
+while !(criteriu_oprire) {
+	copii = recombinare_genetica(pop0)
+	pop0  u copii = mutatie(pop0 v copii)
+	pop1 = selectie_naturala(pop0 u copii)
+}
+
+
+copi = {}
+recombinare:
+for (i == 0 , k)
+	p0 = selecteaza_parinte(pop0)
+	p1 = selecteaza_parinte(pop0)
+	c = recombinare(p0 p1)
+	copii = {c} u copii
+
+
+selectia parintilor se poate face prin 
+turnir selectez o parte din populatie din care iau cel mai bun
+marimea turnirului
+
+ruleta ca o roata a norocului 
+
+
+
+recombinare
+
+pot genera un 0 < p <= n
+p0 ///////-------
+p1 -------\\\\\\\
+
+copil /////\\\\\\ ce tai din fiecare // \\ 
+copil /\\/\/\/\/\/  
+pot crea mai multi copii de aceasi lungime de cromozoni
+
+
+criteriu_de_oprire = nr_epoci, pana cand fitnesul celui mai bun membru din societate
+nu mai creste semnificativ
+
+
+alg_evolutiv (pop_size, nr_epoci, .., retea de combinare, retea elemente mutatie)
+
+
+
+
+for gena in cromozom:
+	if se poate muta:
+		gena = random nr
+
+mutatia punctiforma
+
+
+o sa am clasa cromozon
+ def init (n):
+	self.gene = [0] x n
+	self.fitness = -1.0
+def compute_fitness(...)
+ 

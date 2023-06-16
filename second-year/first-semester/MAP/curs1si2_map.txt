@@ -1,0 +1,48 @@
+
+Curs 1 map
+constantele ===== final
+
+daca lipseste si private si protected atunci e vizibil doar in pachet/director
+
+
+metodele statice se pot apela doar cu numele clasei(nu e necesar sa cream o instanta)
+
+in metoda statica nu pot modifica o variabila care nu e statica pag 38
+
+metodele final nu mai pot fi redefinite(overriding) in clasele derivate
+clasele final nu mai pot fi extinse
+
+
+Agregare
+a->B la a e romb gol
+A nu poate exista fara B
+B exista fara A
+contructor A(B b)...
+
+Compozitie
+B este creat de catre A
+constructor A(){b = new B();}
+
+Clase abstracte pag 61
+o metoda e abstracta daca se declara si nu se defineste
+o clasa abstracta nu poate fi instantiata (new taiat)
+o clasa abstracta nu e obligatoriu sa aibe metode abstracte
+daca o clasa mosteneste o clasa abstracta si nu defineste toate metodele clasei de baza, trebuie declarata si ea abstracta
+
+
+Interfata
+contine declaratii de metode 	abstracte(nedefinite)
+				default(definite)
+				statice
+				date membru
+orice data membru e implicit public static final
+o interfata poate sa mosteneasca mai multe interfete
+metodele sunt implicit public
+grila pag 66
+abstract void foo(); --> e ca un pleonasm
+final int f(); ---> nu poate fi implementata
+
+
+
+daca cel putin o metoda abstracta din interfata nu e implementata in clasa, atunci clasa trebuie declarata abstracta
+o clasa poate mosteni cel mult o clasa, dar poate implementa oricate interfete

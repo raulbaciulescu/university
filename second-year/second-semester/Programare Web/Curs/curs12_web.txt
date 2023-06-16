@@ -1,0 +1,11 @@
+15 iunie 7 iulie de restanta
+
+sql injection
+http are caracter stateless
+
+conexiunile de pe un site trebuie asociate unui utilizator
+serverul web trebuie sa aibe acel ceva ca sa le poata asocia ca 
+apartinand aceluiasi utilizator
+cand ma shchimb de pe date pe router, trebuie sa asociez la nivelul serverului web ca 
+requesturile vin de la un server unic, avem id de sesiune
+cookie de sesiune

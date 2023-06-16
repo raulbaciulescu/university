@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+    <Text layoutX="456.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In" textAlignment="CENTER" AnchorPane.topAnchor="108.46875">
+        <font>
+            <Font size="32.0" />
+        </font>
+    </Text>
+    <TextField fx:id="txtFieldUsername" layoutX="426.0" layoutY="184.0" promptText="Username" AnchorPane.topAnchor="184.0" />
+    <PasswordField fx:id="txtFieldPassword" layoutX="426.0" layoutY="230.0" promptText="Password" AnchorPane.topAnchor="230.0" />
+    <Button fx:id="btnLogin" layoutX="477.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#onBtnLoginClicked" text="Login" AnchorPane.topAnchor="288.0" />
+    <Text fx:id="errors" fill="RED" layoutX="249.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wrong creadentials" visible="false" AnchorPane.topAnchor="100.0" />
+</AnchorPane>

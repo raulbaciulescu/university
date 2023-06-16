@@ -1,0 +1,40 @@
+@Override
+    public @NotNull ArrayList<Message> getAll() throws SQLException {
+        final ArrayList<Message> messages = new ArrayList<>();
+        final ResultSet resultSet = this.statements
+                .get(Database.Query.GET_ALL).executeQuery();
+        Optional<Message> result = this.fromResultSet(resultSet);
+        while (result.isPresent()) {
+            messages.add(result.get());
+            result = this.fromResultSet(resultSet);
+        }
+        return messages;
+    }
+
+
+
+package domain.data.source.database;
+
+import domain.model.Entity;
+import org.jetbrains.annotations.NotNull;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+public interface TableString<ID, T> {
+
+    void insert(@NotNull final T object) throws SQLException;
+
+    List<String> whereID(@NotNull final ID id) throws SQLException;
+
+    List<String> fromResultSet(@NotNull final ResultSet resultSet) throws SQLException;
+
+    void update(@NotNull final T object) throws SQLException;
+
+    void delete(@NotNull final ID id) throws SQLException;
+
+    List<List<String>> getAll() throws SQLException;
+}

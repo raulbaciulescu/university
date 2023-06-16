@@ -1,0 +1,10 @@
+Proiectare obiectuala
+Modele dinamice. Diagrame de secventa
+
+---------> plina
+
+---------> asa cum se vede
+
+
+<<create>>
+- - - - - - - ->

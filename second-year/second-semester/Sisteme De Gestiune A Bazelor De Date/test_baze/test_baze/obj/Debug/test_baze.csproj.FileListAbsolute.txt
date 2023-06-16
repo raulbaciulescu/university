@@ -1,0 +1,11 @@
+C:\Users\raulb\Desktop\test_baze\test_baze\bin\Debug\test_baze.exe.config
+C:\Users\raulb\Desktop\test_baze\test_baze\bin\Debug\test_baze.exe
+C:\Users\raulb\Desktop\test_baze\test_baze\bin\Debug\test_baze.pdb
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.csproj.AssemblyReference.cache
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.csproj.SuggestedBindingRedirects.cache
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.Form1.resources
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.Properties.Resources.resources
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.csproj.GenerateResource.cache
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.csproj.CoreCompileInputs.cache
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.exe
+C:\Users\raulb\Desktop\test_baze\test_baze\obj\Debug\test_baze.pdb

@@ -1,0 +1,11 @@
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\bin\Debug\Seminar6Exam.exe.config
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\bin\Debug\Seminar6Exam.exe
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\bin\Debug\Seminar6Exam.pdb
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.csproj.AssemblyReference.cache
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.csproj.SuggestedBindingRedirects.cache
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.Form1.resources
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.Properties.Resources.resources
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.csproj.GenerateResource.cache
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.csproj.CoreCompileInputs.cache
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.exe
+D:\Facultate\SGBD\Seminar\Seminar6Exam\Seminar6Exam\obj\Debug\Seminar6Exam.pdb

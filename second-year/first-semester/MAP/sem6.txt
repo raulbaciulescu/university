@@ -1,0 +1,12 @@
+Interfete functionale = o interfață funcțională este definită 
+			ca orice interfață care are exact o metodă abstractă.
+programare functionala = Programarea funcțională este o paradigmă de programare care tratează
+			 calculul ca evaluare de funcții matematice
+
+lambda (java) = O expresie lambda este un bloc scurt de
+		 cod care preia parametrii și returnează o valoare.
+
+Predicate = e o interfata functionala din java, contine metode ca isEqual, 
+		and, egate, or, test
+
+public static <E> void  printArie(List<E> l, Arie<E> f) {}

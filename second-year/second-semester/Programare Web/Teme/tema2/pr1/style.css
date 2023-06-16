@@ -1,0 +1,17 @@
+.parent {
+    border: 1px solid black;
+    padding: 16px 16px;
+    text-align: center;
+    display: flex;
+    width: fit-content;
+}
+.child{
+
+    display: flex;
+    align-items: center; /*centrare pe verticala */
+    /*justify-content: center; !*centrare pe orizontala*!*/
+    width: 200px;
+}
+img {
+    max-height: 200px;
+}

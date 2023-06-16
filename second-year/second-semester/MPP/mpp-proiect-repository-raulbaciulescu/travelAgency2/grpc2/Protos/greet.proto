@@ -1,0 +1,52 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "com.grpc";
+
+
+service FlightService {
+  rpc login(Request) returns (Response); //user => okResp
+  rpc logout(Request) returns (Response); //user => okResp
+  rpc purchase(Request) returns (Response); //purchase => okResp, Flight
+  rpc getFlights(Request) returns (stream Response); //get_flights => get_flights
+  rpc addObserver(stream Empty) returns (stream Response);
+}
+
+message User {
+  string username = 1;
+  string password = 2;
+}
+
+message Response {
+  enum Type {Unknown = 0; Ok = 1; Error = 2; GetFlights = 3; Flight = 4 ;}
+  Type type = 1;
+
+  Flight flight = 2;
+  Flight updateFlight = 3;
+}
+
+message Request {
+  enum Type {Unknown = 0; Login = 1; Logout = 2; Purchase = 3; GetFlights = 4 ;}
+  Type type = 1;
+  oneof payload{
+    User user = 2;
+    Purchase purchase = 3;
+  }
+}
+
+message Purchase {
+  int64 flightId = 1;
+  string clientName = 2;
+  string clientAddress = 3;
+  int32 nrOfSeats = 4;
+}
+
+message Flight {
+  int64 id = 1;
+  string start = 2;
+  string destination = 3;
+  string startDate = 4;
+  int32 nrOfSeats = 5;
+}
+message Empty {
+
+}

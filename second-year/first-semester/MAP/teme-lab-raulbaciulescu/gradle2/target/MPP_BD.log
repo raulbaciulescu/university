@@ -1,0 +1,225 @@
+08 Mar 2022 09:47:00,666 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+08 Mar 2022 09:48:01,933 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+08 Mar 2022 09:49:16,772 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+08 Mar 2022 09:50:22,061 INFO  CarsDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+08 Mar 2022 10:04:23,031 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescucars.db"} 
+08 Mar 2022 10:04:23,039 TRACE CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:04:23,039 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:04:23,039 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:04:23,039 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescucars.db"
+08 Mar 2022 10:04:23,039 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:04:23,039 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:04:23,047 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescucars.db"
+08 Mar 2022 10:04:23,047 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:07:03,478 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescucars.db"} 
+08 Mar 2022 10:07:03,499 TRACE CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:07:03,499 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:07:03,505 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:07:03,506 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescucars.db"
+08 Mar 2022 10:07:03,507 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:07:03,508 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:07:03,516 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescucars.db"
+08 Mar 2022 10:07:03,516 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:18:20,116 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:18:20,131 TRACE CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:18:20,131 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:18:20,131 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:18:20,131 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:18:20,131 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:18:20,131 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:18:20,139 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:18:20,139 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:19:07,692 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:19:07,709 TRACE CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:19:07,709 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:19:07,709 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:19:07,709 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:19:07,709 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:19:07,709 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:19:07,709 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:19:07,709 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:21:01,448 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:21:01,462 TRACE CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:21:01,462 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:21:01,465 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:21:01,465 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:21:01,466 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:21:01,466 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:21:01,471 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:21:01,474 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:22:21,113 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:22:21,121 TRACE CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:22:21,121 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:22:21,121 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:22:21,121 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:22:21,121 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:22:21,121 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:22:21,129 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:22:21,129 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:25:02,013 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:25:02,025 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:25:02,025 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:25:02,025 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:25:02,025 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:25:02,025 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:25:02,025 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:25:02,033 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:25:02,033 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:26:02,143 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:26:02,154 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:26:02,154 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:26:02,154 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:26:02,154 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:26:02,154 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:26:02,162 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:26:02,170 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:26:02,170 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:26:11,714 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:26:11,722 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:26:11,722 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:26:11,722 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:26:11,722 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:26:11,722 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:26:11,722 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:26:11,722 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:26:11,730 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:29:07,218 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:29:07,226 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:29:07,226 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:29:07,226 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:29:07,226 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:29:07,234 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:29:07,234 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:29:07,234 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:29:07,234 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:35:00,926 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"} 
+08 Mar 2022 10:35:02,714 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:35:02,714 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:35:02,715 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:35:02,716 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:35:02,716 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:35:02,717 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:35:02,738 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:FacultateMAP	eme-lab-raulbaciulescu"
+08 Mar 2022 10:35:02,741 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:36:20,597 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:36:20,605 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:36:20,606 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:36:20,606 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:36:20,606 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:36:20,607 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:36:20,607 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:36:20,611 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:36:20,612 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:36:44,080 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:36:45,694 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:36:45,695 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:36:45,695 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:36:45,696 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:36:45,697 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:36:45,697 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:36:45,720 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:36:45,722 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:37:50,817 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:37:50,835 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:37:50,835 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:37:50,835 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:38:01,729 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:38:02,874 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:38:04,393 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:42:26,410 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:42:26,420 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:42:26,421 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:42:26,421 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:42:26,422 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:42:26,422 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:42:26,422 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:42:26,428 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:42:26,429 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:42:37,632 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:42:37,642 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:42:37,642 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:42:37,643 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:42:37,643 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:42:37,643 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:42:37,643 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:42:37,649 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:42:37,650 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:43:02,593 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:43:02,603 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:43:02,605 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:43:02,605 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:43:02,605 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"
+08 Mar 2022 10:43:02,606 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:43:02,606 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:43:02,615 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"
+08 Mar 2022 10:43:02,617 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:43:38,420 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:43:38,432 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019
+08 Mar 2022 10:43:38,432 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:43:38,433 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:43:38,433 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"
+08 Mar 2022 10:43:38,434 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:43:38,434 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:43:38,441 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"
+08 Mar 2022 10:43:38,443 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:45:14,770 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:45:14,780 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:45:14,781 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:45:14,781 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:45:14,782 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"
+08 Mar 2022 10:45:14,783 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:45:14,783 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:45:14,790 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:\Facultate\MAP\teme-lab-raulbaciulescu"
+08 Mar 2022 10:45:14,791 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:46:13,647 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:46:13,656 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:46:13,656 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:46:13,656 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:46:13,656 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:46:13,657 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:46:13,657 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:46:13,664 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:46:13,666 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:46:53,623 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"} 
+08 Mar 2022 10:46:57,946 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:47:00,231 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:47:00,233 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:47:03,281 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu"
+08 Mar 2022 10:47:04,908 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:47:06,778 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:48:46,869 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu/cars.db"} 
+08 Mar 2022 10:48:46,879 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:48:46,880 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:48:46,880 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:48:46,880 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu/cars.db"
+08 Mar 2022 10:48:46,881 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:48:46,881 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:48:46,889 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D:/Facultate/MAP/teme-lab-raulbaciulescu/cars.db"
+08 Mar 2022 10:48:46,890 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:49:22,263 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:D://Facultate//MAP//teme-lab-raulbaciulescu//cars.db"} 
+08 Mar 2022 10:49:22,273 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:49:22,274 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:49:22,274 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:49:22,274 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... "jdbc:sqlite:D://Facultate//MAP//teme-lab-raulbaciulescu//cars.db"
+08 Mar 2022 10:49:22,275 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:49:22,275 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:49:22,280 ERROR JdbcUtils 39 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:D://Facultate//MAP//teme-lab-raulbaciulescu//cars.db"
+08 Mar 2022 10:49:22,281 TRACE JdbcUtils 55 getConnection - Exit
+08 Mar 2022 10:49:42,395 INFO  CarsDBRepository 21 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D://Facultate//MAP//teme-lab-raulbaciulescu//cars.db} 
+08 Mar 2022 10:49:42,406 TRACE CarsDBRepository 59 add - Enter saving task Id=0 Tesla Model S 2019 
+08 Mar 2022 10:49:42,406 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:49:42,407 TRACE JdbcUtils 23 getNewConnection - Enter
+08 Mar 2022 10:49:42,407 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Facultate//MAP//teme-lab-raulbaciulescu//cars.db
+08 Mar 2022 10:49:42,407 INFO  JdbcUtils 29 getNewConnection - user: null
+08 Mar 2022 10:49:42,407 INFO  JdbcUtils 30 getNewConnection - pass: null
+08 Mar 2022 10:49:42,686 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:49:42,704 TRACE CarsDBRepository 66 add - Saved 1 instances
+08 Mar 2022 10:49:42,705 TRACE CarsDBRepository 72 add - Exit
+08 Mar 2022 10:49:42,705 TRACE CarsDBRepository 84 findAll - Enter
+08 Mar 2022 10:49:42,706 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:49:42,706 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:49:42,707 TRACE CarsDBRepository 103 findAll - Exit
+08 Mar 2022 10:49:42,707 TRACE CarsDBRepository 27 findByManufacturer - Enter
+08 Mar 2022 10:49:42,707 TRACE JdbcUtils 46 getConnection - Enter
+08 Mar 2022 10:49:42,708 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d901eb0)
+08 Mar 2022 10:49:42,708 TRACE CarsDBRepository 47 findByManufacturer - Exit

@@ -1,0 +1,45 @@
+%contine(E: element, L:list)
+%E - elementul pe care il verificam daca apare in lista
+%L - lista in care se face verificarea
+%(i,i) sau (i,o)
+contine(E, [E|_]):-!.
+contine(E, [_|L]):-contine(E, L).
+
+
+%varianta 3
+%diferenta(L1:list, L2:list, Rez:list)
+diferenta([], _, []).
+diferenta([H|T], L, Rez):-
+    contine(H, L),
+    !,
+    diferenta(T, L, Rez).
+diferenta([H|T], L, [H|Rez]):-
+    diferenta(T, L, Rez).
+
+
+subtract1([], _, []).
+subtract1([Head|Tail], L2, L3) :-
+        memberchk(Head, L2),
+        !,
+        subtract1(Tail, L2, L3).
+subtract1([Head|Tail1], L2, [Head|Tail3]) :-
+        subtract1(Tail1, L2, Tail3).
+
+
+
+
+%adaugaDupaPar(L:list, Rez: list)
+%L - lista initiala
+%Rez - lista care contine elementele listei initiale urmate de cate un 1
+%(i,i), (i, o) - determinist
+adaugaDupaPar([], []):-!.
+adaugaDupaPar([H|T], Rez):-
+    H  mod 2 =:= 0,
+    adaugaDupaPar(T, Rez1),
+    Rez = [H|[1|Rez1]],
+    !.
+adaugaDupaPar([H|T], Rez):-
+    adaugaDupaPar(T, Rez1),
+    Rez = [H|Rez1],
+    !.
+

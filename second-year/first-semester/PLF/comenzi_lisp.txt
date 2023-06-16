@@ -1,0 +1,25 @@
+(load 'l1_9)
+(diferenta '(1 2 3 4 5) '(2 3))
+(diferenta '(1 2 3 4 5) '(3))
+(invers '(1 2 (3 4) 5 ((6 7))))
+(invers '(1 2 (3 4) 5 5 ((6 7))))
+(primele '(1 2 (3 (4 5) (6 7)) 8 (9 10 11)))
+(primele '(1 2 (3 (4 5) (6 7)) 8 (9 10 11) 2))
+(suma '(1 2 (1 2) 3 ((3) 4) 1))
+
+
+(load 'l2_1)
+
+(parcurgere '(A 2 B 1 D 2 F 0 G 0 C 1 E 1 H 0) 'H)
+
+
+(defun extrage_atomi(x)
+    (cond 
+        ((atom x) (list x))
+        (t (mapcan #'extrage_atomi x))
+    )
+)
+
+(defun membru2(e l)
+    (equal (car (extrage_atomi l))) 1)
+)

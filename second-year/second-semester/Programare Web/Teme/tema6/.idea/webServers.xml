@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a5db3294-c179-4876-93ad-bdfbdfd5436e" name="xampp" url="http://localhost/tema6">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="4c86843a-c15d-46a6-a367-5024bcac3ba2" name="xampp1" url="http://localhost/tema6">
+        <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

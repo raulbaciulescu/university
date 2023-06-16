@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="c805c47d-4d58-4100-9510-469247d6f01e" />
+          <option name="name" value="SQLite - cars.db (DDL)" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="scriptOptions">
+            <map>
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+            </map>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

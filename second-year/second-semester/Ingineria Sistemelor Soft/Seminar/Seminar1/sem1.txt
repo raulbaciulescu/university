@@ -1,0 +1,48 @@
+analiza cerintelor
+
+model concepetual. diagrama uml de clase
+clasa vs data type!
+
+
+
+Dish
+name: string
+price: reala
+description: string
+category: Category
+
+<<Enumeration>>
+Category:
+PIZZA
+PASTA
+SOUP
+BREAKFAST
+
+Restaurant
+name: string
+
+Waiter
+name: string
+
+
+Cook
+name: string
+
+
+<<dataType>>
+Datetime
+hour: Integer
+m, s
+year: Integer
+...
+
+<<enumeration>>
+Status
+PENDING
+FINISHED
+SERVED
+
+Order:
+tableNo: Integer
+time: Datetime
+status: Status 

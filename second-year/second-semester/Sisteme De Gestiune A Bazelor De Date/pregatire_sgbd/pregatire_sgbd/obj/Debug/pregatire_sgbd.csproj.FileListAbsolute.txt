@@ -1,0 +1,11 @@
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\bin\Debug\pregatire_sgbd.exe.config
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\bin\Debug\pregatire_sgbd.exe
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\bin\Debug\pregatire_sgbd.pdb
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.csproj.AssemblyReference.cache
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.csproj.SuggestedBindingRedirects.cache
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.Form1.resources
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.Properties.Resources.resources
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.csproj.GenerateResource.cache
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.csproj.CoreCompileInputs.cache
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.exe
+C:\Users\raulb\Desktop\pregatire_sgbd\pregatire_sgbd\obj\Debug\pregatire_sgbd.pdb

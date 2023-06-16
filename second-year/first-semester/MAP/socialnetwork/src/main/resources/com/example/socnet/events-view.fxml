@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socnet.controller_fx.EventController">
+    <Text layoutX="238.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EVENTS" textAlignment="CENTER">
+        <font>
+          <Font name="System Bold" size="36.0" />
+        </font>
+    </Text>
+    <Button fx:id="btnGoBack" layoutX="29.0" layoutY="23.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" />
+    <Text layoutX="29.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" />
+    <Text layoutX="29.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Past" />
+    <Text layoutX="460.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All" />
+    <ListView fx:id="lvEvents" layoutX="367.0" layoutY="69.0" prefHeight="218.0" prefWidth="200.0" />
+    <ListView fx:id="lvNextEvents" layoutX="29.0" layoutY="106.0" prefHeight="80.0" prefWidth="200.0" />
+    <ListView fx:id="lvPastEvents" layoutX="29.0" layoutY="217.0" prefHeight="80.0" prefWidth="200.0" />
+    <Button fx:id="btnAddEvent" layoutX="542.0" layoutY="297.0" mnemonicParsing="false" onAction="#addEvent" text="+" />
+    <Button fx:id="btnSubscribe" layoutX="367.0" layoutY="297.0" mnemonicParsing="false" onAction="#subscribe" text="Subscribe" />
+    <Button fx:id="btnUnsubscribe" layoutX="29.0" layoutY="310.0" mnemonicParsing="false" onAction="#unsubscribe" text="Unsubscribe" />
+   <Button fx:id="btnRefresh" layoutX="103.0" layoutY="23.0" mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+</AnchorPane>

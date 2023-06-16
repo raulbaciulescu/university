@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+}
+
+group 'ro'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project (':Model')
+//    runtimeOnly group: 'org.xerial', name: 'sqlite-jdbc', version: '3.36.0.3'
+//    testImplementation group: 'junit', name: 'junit', version: '4.12'
+//
+//    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+//    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.0'
+//
+//    implementation 'org.hibernate:hibernate-core:6.0.1.Final'
+//    implementation 'org.hibernate:hibernate-core-jakarta:5.6.8.Final'
+//    implementation 'org.glassfish.jaxb:jaxb-runtime:3.0.0'
+//    implementation 'com.github.gwenn:sqlite-dialect:0.1.2'
+//
+//    implementation 'org.springframework:spring-context:5.3.20'
+//
+//    implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    runtimeOnly group: 'org.xerial',name:'sqlite-jdbc',version:'3.34.0'
+    implementation group : 'org.apache.logging.log4j' ,name:'log4j-core',version:'2.14.0'
+    implementation group : 'org.apache.logging.log4j' ,name:'log4j-api',version:'2.14.0'
+
+    implementation 'org.hibernate:hibernate-core:5.2.10.Final'
+    implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
+    implementation 'org.javassist:javassist:3.28.0-GA'
+
+    implementation 'org.springframework:spring-context:4.3.8.RELEASE'
+}
+
+test {
+    useJUnitPlatform()
+}

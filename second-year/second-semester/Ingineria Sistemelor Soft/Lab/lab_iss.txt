@@ -1,0 +1,12 @@
+- diagrama de secventa in fiecare caz de util
+- diagrama claselor?
+- nu de la main, ca de la primul view!
+- optional lifetime pt db
+- ne putem opri la repo
+- pot pune service daca vreau intre ctrl si repo, daca vr
+
+- o diagr pt fiecare use case
+- inca una de clase
+
+- cu orm pe faza 2 nu e obligatoriu
+- 

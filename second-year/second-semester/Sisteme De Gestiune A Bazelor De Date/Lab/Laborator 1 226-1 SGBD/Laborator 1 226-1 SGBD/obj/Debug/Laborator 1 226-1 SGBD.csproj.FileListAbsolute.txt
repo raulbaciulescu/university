@@ -1,0 +1,21 @@
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\bin\Debug\Laborator 1 226-1 SGBD.exe.config
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\bin\Debug\Laborator 1 226-1 SGBD.exe
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\bin\Debug\Laborator 1 226-1 SGBD.pdb
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csprojAssemblyReference.cache
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator_1_226_1_SGBD.Form1.resources
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator_1_226_1_SGBD.Properties.Resources.resources
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csproj.GenerateResource.cache
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csproj.CoreCompileInputs.cache
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.exe
+C:\Users\andor\source\repos\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.pdb
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\bin\Debug\Laborator 1 226-1 SGBD.exe.config
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\bin\Debug\Laborator 1 226-1 SGBD.exe
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\bin\Debug\Laborator 1 226-1 SGBD.pdb
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csproj.AssemblyReference.cache
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator_1_226_1_SGBD.Form1.resources
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator_1_226_1_SGBD.Properties.Resources.resources
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csproj.GenerateResource.cache
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.csproj.CoreCompileInputs.cache
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.exe
+C:\Users\raulb\Desktop\Laborator 1 226-1 SGBD\Laborator 1 226-1 SGBD\obj\Debug\Laborator 1 226-1 SGBD.pdb

@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'org.springframework.boot' version '2.6.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+}
+
+group 'org.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+application{
+    mainClass='exam.client.MainFX'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation project(':ExamenModel')
+    implementation project(':ExamenServices')
+    implementation project(':ExamenNetworking')
+    implementation project(':RestServices')
+
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.10.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
+
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.13.1'
+
+    testImplementation('com.jayway.jsonpath:json-path')
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    implementation 'org.hibernate:hibernate-core:5.2.10.Final'
+    implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
+    implementation 'org.javassist:javassist:3.28.0-GA'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javafx {
+    version = '17.0.1'
+    modules = ['javafx.controls', 'javafx.fxml']
+}

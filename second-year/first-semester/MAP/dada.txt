@@ -1,0 +1,34 @@
+list 
+set map
+
+
+hashset
+treeset
+generics
+repository
+iterable
+hashcode equals ---- legatura dintre ele
+
+
+ceva iterable ii ceva ce se poate parcurge cu un loop
+de exemplu clasele generice pot fi folosite cu mai multe tipuri de date
+
+
+un hashmap e un tip de data ca dictionarul de tipul cheie/valoare
+treemap in java este utilizat pentru a implementa interfata map
+
+
+list ii o modalitate de a stoca o colectie ordonata
+set ii o modalitate de a stoca o colectie in care datele nu pot fi dublicate
+map e un dictionar
+
+Ce zic colegii:
+- un list e o colectie
+- O STRUCTURA!!!! ce stocheaza cheie/valoare
+
+- e o metoda eleganta de a abstractiza logica 
+- putem folosi aceleasi bucati de cod 
+
+
+- hashCode si equals
+1:17 zice de tema!!!

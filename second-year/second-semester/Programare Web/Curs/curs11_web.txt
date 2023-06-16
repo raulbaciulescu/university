@@ -1,0 +1,12 @@
+
+curs php sapt 11
+
+intrebare de examen
+daca se pot face call uri ajax catre o sursa statica de pe backend
+
+amp stack = apache mysql php
+
+phpmyadmin
+
+session
+- pagina
