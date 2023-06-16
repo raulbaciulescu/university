@@ -1,0 +1,15 @@
+tema 2 lab ltfc
+- determinist, poate sa mearga doar intr o stare nu in mai multe
+- A -> a , A -> aB
+aabba = cel mai lung prefix 
+intregi, cu virgula, hexa? 
+
+
+
+1. citeste automat
+2. multimea starilor
+3. alfabetul
+4. tranzitiile
+5. multimea starilor finale
+6. verifica secventa
+7. determina cel mai lung prefix

@@ -1,0 +1,93 @@
+Id TS:
+1 value: r st: Node{contor=2, value='aria'} dr: null
+2 value: aria st: null dr: Node{contor=3, value='perimetru'}
+3 value: perimetru st: Node{contor=5, value='p'} dr: Node{contor=4, value='pi'}
+5 value: p st: null dr: null
+4 value: pi st: null dr: null
+
+Const TS:
+1 value: 8888 st: Node{contor=2, value='3.14'} dr: Node{contor=4, value='99'}
+2 value: 3.14 st: Node{contor=3, value='2'} dr: null
+4 value: 99 st: null dr: null
+3 value: 2 st: null dr: null
+
+FIP:
+0 : 0
+1 : 0
+2 : 0
+3 : 0
+4 : 0
+5 : 1
+6 : 0
+7 : 0
+5 : 2
+6 : 0
+7 : 0
+5 : 3
+6 : 0
+7 : 0
+5 : 4
+6 : 0
+4 : 0
+8 : 0
+9 : 0
+10 : 0
+11 : 0
+12 : 1
+5 : 5
+13 : 0
+12 : 2
+6 : 0
+14 : 0
+15 : 0
+5 : 1
+6 : 0
+5 : 3
+13 : 0
+12 : 3
+16 : 0
+5 : 4
+16 : 0
+5 : 1
+6 : 0
+5 : 2
+13 : 0
+5 : 4
+16 : 0
+5 : 1
+16 : 0
+5 : 1
+6 : 0
+17 : 0
+18 : 0
+5 : 3
+18 : 0
+6 : 0
+17 : 0
+18 : 0
+5 : 2
+6 : 0
+12 : 4
+19 : 0
+
+Atoms:
+include : 0
+< : 1
+iostream : 2
+> : 3
+int : 4
+ID : 5
+; : 6
+double : 7
+main : 8
+( : 9
+) : 10
+{ : 11
+CONST : 12
+= : 13
+cin : 14
+>> : 15
+* : 16
+cout : 17
+<< : 18
+} : 19

@@ -1,0 +1,41 @@
+include<iostream>
+include <cmath>
+
+int n;intx12;
+int suma;
+double aaaa212a;
+double pi;
+struct MyType aasd12aaaa;
+struct MyType{
+    int a;
+    int c;
+}
+double pi;
+
+int main()
+{
+    cin>> n;
+    while (n != 33){
+        cin >> x;
+        if(x+ 11112 % 24234233 == 21)
+        {suma=suma+x;}
+        n = n - 1;
+        if (x == 1 abc)
+        {
+            while (n!=  25)
+            {
+                x = x+1;}
+        }
+        rrr
+        34
+    }
+    cout << suma;
+}
+0x101
+1e10
+1e-5L
+1.e-2
+3.14
+.1f
+3e-5f
+0.1e-5f + 21 + a

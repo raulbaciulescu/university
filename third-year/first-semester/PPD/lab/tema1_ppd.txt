@@ -1,0 +1,60 @@
+        for (int i = 0; i < M; i++) {
+            for (int j = 0; j < N; j++) {
+                System.out.println(matrix[i][j]);
+            }
+        }
+
+for (int i = 0; i < M; i++) {
+            for (int j = 0; j < N; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.print(kernel[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+ private int[][] matrix;
+    private int[][] kernel;
+    private int[][] result;
+    private int N;
+    private int M;
+    private int n;
+    private int m;
+
+    public void process(InputStream inputStream, OutputStream outputStream) throws IOException {
+        readFromFile(inputStream);
+        doOperation();
+        writeToFile(outputStream);
+    }
+
+    public void readFromFile(InputStream inputStream) {
+        Scanner scanner = new Scanner(inputStream);
+        N = scanner.nextInt();
+        M = scanner.nextInt();
+        matrix = new int[M][N];
+
+        for (int i = 0; i < M; i++)
+            for (int j = 0; j < N; j++)
+                matrix[i][j] = scanner.nextInt();
+
+        n = scanner.nextInt();
+        m = scanner.nextInt();
+        kernel = new int[n][m];
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < m; j++)
+                kernel[i][j] = scanner.nextInt();
+    }
+
+    private void writeToFile(OutputStream outputStream) throws IOException {
+        for (int i = 0; i < M; i++) {
+            for (int j = 0; j < N; j++) {
+                outputStream.write((result[i][j] + " ").getBytes());
+            }
+            outputStream.write("\n".getBytes());
+        }
+    }

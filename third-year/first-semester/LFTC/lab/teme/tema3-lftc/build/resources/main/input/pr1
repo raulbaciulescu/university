@@ -1,0 +1,18 @@
+include <iostream>
+
+int r;
+double aria;
+double perimetru;
+double pi;
+
+int main()
+{
+8888
+    p = 3.14;
+    cin >> r;
+    perimetru = 2 * pi * r;
+    aria = pi * r * r;
+    cout << perimetru << ;
+    cout << aria;
+    99
+}

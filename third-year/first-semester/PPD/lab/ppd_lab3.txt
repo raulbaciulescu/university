@@ -1,0 +1,18 @@
+matrice n * m
+i, j => i * m + j
+
+i=> i / m
+j=> i % m 
+
+//        for (int i = 0; i < M; i++) {
+//            for (int j = 0; j < N; j++) {
+//                System.out.print(result[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+
+31848600
+42343300
+
+3610452200
+908724500

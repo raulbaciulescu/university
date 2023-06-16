@@ -1,0 +1,6 @@
+Curs 2 PDM
+- useReducer = ne schimba starea aplicatiei
+- dispatch executarea la ceva, returneaza starea urmatoare a apliatiei, schimba starea aplicatiei
+- useCallback = punem o functie in ea ca sa nu se tot aloce spatiu in memorie de fiecare data cand se apeleaza functia
+- useEfect = executarea unei functii atunci cand se schimba ceva 
+- useEfect cu [] = se apeleaza o singura data, la prmul render care se face

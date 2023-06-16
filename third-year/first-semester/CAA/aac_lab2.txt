@@ -1,0 +1,43 @@
+security group
+- actioneaza ca un firewall virtial controleaza traficul inbound si outbound
+- cand creezi o instanta vpc poti sa asignezi pana in 5 security groups instantei tale
+
+load balancer 
+- routeaza traficul
+- application load balancer: 
+e un proxy intre aplicatia ta si internet, primeste un request de la client, creaza un request nou la aplicatie
+cand se creaza un nou request pt aplicatie ai nevoie de adresa ip originala de la client
+- network, primeste tot pachetul, nu i face nimic, si routeaza
+un foarte sofisticat network router
+- se folosesc ambele in scop diferit
+
+Auto-scaling group
+- configurari
+
+
+pana la 3 citim
+
+Lab 2
+- public si private subnet, backend si frontend sunt pe public subnet
+- cel mai mare layer e vpc
+- CIDR (Classles inter-domain routing) e o metoda de a aloca adrese ip si ip routing 
+- AWS VPCs (Amazon Virtual Private Cloud) e o sectiune a AWS cloud unde poti sa ti faci intr un environment izolat tabele de rutare, range uri de ip
+subneturi, gateway-uri
+- VPC ne lasa sa ne controlam traficul intre sub-networks si sa folosim adrese ip private
+- avem nevoie de subnets ca sa putem identifica reteaua din care face parte o adresa ip
+- la un VPC vom avea 1 sau mai multe subnet mask
+
+
+
+intrebari legate de stack si ami!!S
+
+
+
+- private subnet pentru resursele izolate de internet
+- cream un security group la baza de date pentru a putea comunica cu layerul de aplicatie
+- cream un cloud front care este un cdn, care e folosit sa serveasca fisierele cat mai rapid pe tot globul.
+- rds e un serviciu pentru bazele de date oferit de aws, manageuieste baza de date pentru noi, nu va mai trebui sa ne stresam sa o tinem online sau sa facem backupuri
+
+
+folosim un s3 bucket 
+

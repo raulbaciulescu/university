@@ -1,0 +1,12 @@
+Thread:
+ 1. salvare buffer
+ 2. barrier(nr_threaduri) 
+ 3. calcul
+
+
+- cerinta labului
+- diagrame clase(pun main care are toate functiile), pt ambele proiecte
+- detalii de implementare, logica
+- descriere functii importante
+- cum am facut!!
+- concluzii dupa testare

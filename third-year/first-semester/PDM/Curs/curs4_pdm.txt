@@ -1,0 +1,6 @@
+curs 4 pdm
+- schimb starea in auth provider, se redeseneaza toti copii lui (App.tsx)
+
+- salvez apelurile in retea in storage
+- debounce la search e ca sa se faca refresh ul in functie de ce scriem nu instant 
+sa nu l zapacim

@@ -1,0 +1,386 @@
+Time: 14:15:19
+
+Time: 14:15:24
+
+Time: 14:15:29
+
+Time: 14:15:34
+
+Time: 14:15:39
+
+Time: 14:15:45
+Location: 2
+Expected amount: 100
+Actual amount: 100
+Unpaid plannings: 
+
+Time: 14:15:50
+Location: 1
+Expected amount: 30
+Actual amount: 30
+Unpaid plannings: 
+Location: 2
+Expected amount: 100
+Actual amount: 100
+Unpaid plannings: 
+
+Time: 14:15:55
+Location: 1
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 2
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+
+Time: 14:16:00
+Location: 1
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 2
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 3
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+
+Time: 14:16:05
+Location: 1
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 2
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 3
+Expected amount: 180
+Actual amount: 180
+Unpaid plannings: 
+
+Time: 14:16:10
+Location: 1
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 180
+Actual amount: 180
+Unpaid plannings: 
+
+Time: 14:16:15
+Location: 1
+Expected amount: 130
+Actual amount: 130
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 180
+Actual amount: 180
+Unpaid plannings: 
+
+Time: 14:16:20
+Location: 1
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 230
+Actual amount: 230
+Unpaid plannings: 
+
+Time: 14:16:25
+Location: 1
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 230
+Actual amount: 230
+Unpaid plannings: 
+
+Time: 14:16:30
+Location: 1
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 280
+Actual amount: 280
+Unpaid plannings: 
+
+Time: 14:16:35
+Location: 1
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 380
+Actual amount: 380
+Unpaid plannings: 
+
+Time: 14:16:40
+Location: 1
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 2
+Expected amount: 150
+Actual amount: 150
+Unpaid plannings: 
+Location: 3
+Expected amount: 380
+Actual amount: 380
+Unpaid plannings: 
+
+Time: 14:16:45
+Location: 1
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 380
+Actual amount: 380
+Unpaid plannings: 
+
+Time: 14:16:50
+Location: 1
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 480
+Actual amount: 480
+Unpaid plannings: 
+
+Time: 14:16:55
+Location: 1
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 500
+Actual amount: 500
+Unpaid plannings: 
+
+Time: 14:17:00
+Location: 1
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 500
+Actual amount: 500
+Unpaid plannings: 
+
+Time: 14:17:05
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 500
+Actual amount: 500
+Unpaid plannings: 
+
+Time: 14:17:10
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 500
+Actual amount: 500
+Unpaid plannings: 
+
+Time: 14:17:15
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 530
+Actual amount: 530
+Unpaid plannings: 
+
+Time: 14:17:20
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 190
+Actual amount: 190
+Unpaid plannings: 
+Location: 3
+Expected amount: 550
+Actual amount: 550
+Unpaid plannings: 
+
+Time: 14:17:25
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 550
+Actual amount: 550
+Unpaid plannings: 
+
+Time: 14:17:30
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 550
+Actual amount: 550
+Unpaid plannings: 
+
+Time: 14:17:35
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 550
+Actual amount: 550
+Unpaid plannings: 
+
+Time: 14:17:40
+Location: 1
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 650
+Actual amount: 650
+Unpaid plannings: 
+
+Time: 14:17:45
+Location: 1
+Expected amount: 390
+Actual amount: 390
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 650
+Actual amount: 650
+Unpaid plannings: 
+
+Time: 14:17:50
+Location: 1
+Expected amount: 390
+Actual amount: 390
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 650
+Actual amount: 650
+Unpaid plannings: 
+
+Time: 14:17:55
+Location: 1
+Expected amount: 390
+Actual amount: 390
+Unpaid plannings: 
+Location: 2
+Expected amount: 290
+Actual amount: 290
+Unpaid plannings: 
+Location: 3
+Expected amount: 650
+Actual amount: 650
+Unpaid plannings: 
+
+Time: 14:18:00
+Location: 1
+Expected amount: 390
+Actual amount: 390
+Unpaid plannings: 
+Location: 2
+Expected amount: 340
+Actual amount: 340
+Unpaid plannings: 
+Location: 3
+Expected amount: 690
+Actual amount: 690
+Unpaid plannings: 
+

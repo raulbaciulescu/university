@@ -1,0 +1,49 @@
+Android curs 6
+- rember ca un useState in react
+- by e ca sa nu mai punem value
+- rememberSavable(tine cont daca invartim ecranul
+
+
+curs 7
+- by???
+- private set
+- ca arhitectura avem
+
+- Coroutine = functii care se executa pe un fir de executie, 
+in ItemsViewModel"
+viewModelScope.launch // se intampla pe firul principal
+val items = itemService.find() = e pe alt fir si suspenda executia la main??
+
+
+
+Screen foloseste ViewModel
+ViewModel foloseste Repo
+Repo foloseste Service
+
+pt un screen ne trebuie cate o instanta de view model service si repo
+acelasi service si repo                => container
+
+by lazy = va fi initializata cand va fi folosita, va fi singleton
+
+branch 13, viewmodel si repo
+
+    private val URL = "http://192.168.0.107:3000/"
+
+viewModelScope?????
+
+
+Curs 8:
+contexte de executie, Main, IO, Default
+Default = calcule de lunga durata
+IO = pentru intrare iesire, nu blocam Main
+
+
+Curs 9:
+launchedEffect(Unit) se apeleaza o data e ca un useEffect
+intent - lasam sistemul sa aloce pe alte fire de executie un task, sa nu incurcam main-ul, main-ul e folosit pentru
+chestiile de baza, calculele sa nu depaseasca 10 milisecunde
+
+
+
+
+

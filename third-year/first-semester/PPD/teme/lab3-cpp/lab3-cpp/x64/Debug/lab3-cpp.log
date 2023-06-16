@@ -1,0 +1,4 @@
+﻿  lab3-cpp.cpp
+D:\Facultate\PPD\lab\lab3-cpp\lab3-cpp\lab3-cpp.cpp(25,28): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Facultate\PPD\lab\lab3-cpp\lab3-cpp\lab3-cpp.cpp(45,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  lab3-cpp.vcxproj -> D:\Facultate\PPD\lab\lab3-cpp\x64\Debug\lab3-cpp.exe

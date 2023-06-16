@@ -1,0 +1,69 @@
+  {/*<IonCard>*/}
+            {/*    /!*<IonHeader>*!/*/}
+            {/*    /!*    <IonTitle>*!/*/}
+            {/*    /!*        Movie with id {_id}, name {name}, language {language}, manager {manager}, year {year}, lat: {lat}, lng: {lng}*!/*/}
+            {/*    /!*    </IonTitle>*!/*/}
+            {/*    /!*</IonHeader>*!/*/}
+            {/*    <IonContent>*/}
+            {/*        <IonTitle>*/}
+            {/*            Movie with id {_id}, name {name}, language {language}, manager {manager}, year {year}*/}
+            {/*        </IonTitle>*/}
+            {/*        <IonCardSubtitle>*/}
+            {/*            manager {manager}, year {year}*/}
+            {/*        </IonCardSubtitle>*/}
+            {/*        <IonImg style={{width: "100px"}} alt={"NO PHOTO"} src={photoPath}/>*/}
+            {/*    </IonContent>*/}
+            {/*</IonCard>*/}
+
+{"_id":"1","name":"Peter Panv","manager":"Raul Baciulescu","year":2000,"language":"romana","userId":"vI1GMkzBza5i82zj"}
+{"_id":"10","name":"xPeter Panv","manager":"Rauxl Baciulescu","year":20010,"language":"rom4ana","userId":"vI1GMkzBza5i82zj"}
+{"_id":"11","name":"Bxatman","language":"englxish","manager":"Gxigi","year":20100,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"12","name":"xCenusareasa","language":"roxmana","manager":"Boxb","year":20010,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"13","name":"xBook","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"14","name":"xPeters Panv","manager":"Rauxl Baciulescu","year":20010,"language":"rom4ana","userId":"vI1GMkzBza5i82zj"}
+{"_id":"15","name":"Bxaftman","manager":"Gxigi","year":20100,"language":"englxish","userId":"vI1GMkzBza5i82zj"}
+{"_id":"16","name":"xCenfusareasa","language":"roxmana","manager":"Boxb","year":20010,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"17","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"18","name":"Peter Panv","manager":"Raul Baciulescu","year":2000,"language":"romana","userId":"vI1GMkzBza5i82zj"}
+{"_id":"19","name":"xPeter Panv","manager":"Rauxl Baciulescu","year":20010,"language":"rom4ana","userId":"vI1GMkzBza5i82zj"}
+{"_id":"2","name":"Batman","language":"english","manager":"Gigi","year":2000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"20","name":"Bxatman","language":"englxish","manager":"Gxigi","year":20100,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"21","name":"xCenusareasa","language":"roxmana","manager":"Boxb","year":20010,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"22","name":"xBook","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"23","name":"xPeters Panv","manager":"Rauxl Baciulescu","year":20010,"language":"rom4ana","userId":"vI1GMkzBza5i82zj"}
+{"_id":"24","name":"Bxaftman","language":"englxish","manager":"Gxigi","year":20100,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"25","name":"xCenfusareasa","language":"roxmana","manager":"Boxb","year":20010,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"26","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"27","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"28","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"29","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"3","name":"Cenusareasa","language":"romana","manager":"Bob","year":2000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"30","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"31","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"32","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"33","name":"xBookf","language":"romxana","manager":"Andrxei","year":22000,"userId":"vI1GMkzBza5i82zj"}
+{"_id":"4","name":"Book","language":"romana","manager":"Andrei","year":2000,"userId":"vI1GMkzBza5i82zj"}
+{"name":"ff3","manager":"da","year":"1222","language":"franc","userId":"vI1GMkzBza5i82zj","_id":"53hfZj48qTXz0kHD"}
+{"name":"z","manager":"z","year":"z","language":"z","userId":"vI1GMkzBza5i82zj","_id":"5mS0kZhpoqUQBnzI"}
+{"name":"dddd","manager":"ddd","year":"1222","language":"dddd","userId":"vI1GMkzBza5i82zj","_id":"6AyZTG2bWRkZMSY8"}
+{"name":"x","manager":"x","year":"x","language":"x","userId":"vI1GMkzBza5i82zj","_id":"8ZjYogP0nWL830I1"}
+{"name":"ff","manager":"da","year":"1222","language":"franc","userId":"vI1GMkzBza5i82zj","_id":"8ggGXhgGFWqSM9y5"}
+{"name":"f1","manager":"f1","year":"f1","language":"f1","userId":"vI1GMkzBza5i82zj","_id":"BLaF2kHyG94ov6gh"}
+{"name":"g1","manager":"g1","year":"g1","language":"g1","userId":"vI1GMkzBza5i82zj","_id":"EBTTPDUNbczf5eI3"}
+{"name":"i","manager":"i","year":"i","language":"i","userId":"vI1GMkzBza5i82zj","_id":"IxrOeDqmpqQ0t6sF"}
+{"name":"john","manager":"john","year":"john","language":"john","userId":"vI1GMkzBza5i82zj","_id":"JwIITHHQq9eVXa0i"}
+{"_id":"P9PgNL79JSRcza78","name":"gaol","manager":"ghh","year":"ghh","language":"ghh","userId":"vI1GMkzBza5i82zj"}
+{"name":"ff2","manager":"da","year":"1222","language":"franc","userId":"vI1GMkzBza5i82zj","_id":"f35aFh2EddjiLkxQ"}
+{"_id":"fPymO4x98VO6WM2T","name":"ceaw","manager":"ceaw","year":"ceaw","language":"ceaw","userId":"vI1GMkzBza5i82zj"}
+{"name":"z","manager":"z","year":"z","language":"z","userId":"vI1GMkzBza5i82zj","_id":"fTwN6xiFfa3EgZtV"}
+{"name":"f2","manager":"f1","year":"f1","language":"f1","userId":"vI1GMkzBza5i82zj","_id":"jTZTe4NTiIA6aHvq"}
+{"name":"dddd2","manager":"ddd","year":"1222","language":"dddd","userId":"vI1GMkzBza5i82zj","_id":"kTkqj6JSw9hmI94e"}
+{"name":"da","manager":"da","year":"da","language":"franc","userId":"vI1GMkzBza5i82zj","_id":"rjbt5N4VDhjkbKC7"}
+{"name":"da","manager":"da","year":"da","language":"da","userId":"vI1GMkzBza5i82zj","_id":"rsDMUPqLhotpndmP"}
+{"name":"aaa","manager":"aaa","year":"aaa","language":"aaa","userId":"vI1GMkzBza5i82zj","_id":"skSfZ4YhbXx6O5Gg"}
+{"name":"g","manager":"g","year":"g","language":"g","userId":"vI1GMkzBza5i82zj","_id":"y1mfI6Kju9ds73fh"}
+{"_id":"y5D74HPKPhw4JegX","name":"c","manager":"c","year":"c","language":"c","userId":"vI1GMkzBza5i82zj"}
+{"photoPath":"blob:http://localhost:8101/7cbdb123-f250-481e-a105-0a07a37510bb","name":"da","manager":"da","year":"1222","language":"ro","userId":"vI1GMkzBza5i82zj","_id":"UmJcy7ncz4MwFxQP"}
+{"photoPath":"blob:http://localhost:8101/7cbdb123-f250-481e-a105-0a07a37510bb","name":"da","manager":"da","year":"1222","language":"ro","userId":"vI1GMkzBza5i82zj","_id":"OfIYBYt9g7eGIoxo"}
+{"photoPath":"blob:http://localhost:8101/cf3165e5-12a6-4c67-9174-58cc812b3159","name":"a","manager":"a","year":"a","language":"a","userId":"vI1GMkzBza5i82zj","_id":"U3LvRx0rsgc69Uxi"}
+{"photoPath":"","_id":"U3LvRx0rsgc69Uxi","name":"a","manager":"a","year":"a","language":"a","userId":"vI1GMkzBza5i82zj"}

@@ -1,0 +1,8 @@
+//
+// Created by Virginia Niculescu on 11/23/20.
+//
+
+#ifndef EXEMPLE_FUTURE_PROMISE_TEST_SHARED_FUTURE_DIV_H
+#define EXEMPLE_FUTURE_PROMISE_TEST_SHARED_FUTURE_DIV_H
+int test_shared_future_div();
+#endif //EXEMPLE_FUTURE_PROMISE_TEST_SHARED_FUTURE_DIV_H

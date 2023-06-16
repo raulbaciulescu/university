@@ -1,0 +1,29 @@
+Id TS:
+1 value: a st: null dr: Node{contor=2, value='b'}
+2 value: b st: null dr: null
+
+Const TS:
+1 value: 2 st: null dr: null
+
+FIP:
+0 : 0
+0 : 0
+1 : 0
+2 : 1
+3 : 0
+2 : 2
+4 : 0
+5 : 1
+6 : 0
+7 : 0
+6 : 0
+
+Atoms:
+include : 0
+while : 1
+ID : 2
++ : 3
+= : 4
+CONST : 5
+if : 6
+{ : 7

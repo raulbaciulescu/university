@@ -1,0 +1,165 @@
+Id TS:
+1 value: n st: Node{contor=2, value='intx'} dr: Node{contor=3, value='suma'}
+2 value: intx st: Node{contor=4, value='aaaaa'} dr: null
+3 value: suma st: Node{contor=5, value='pi'} dr: Node{contor=8, value='x'}
+4 value: aaaaa st: Node{contor=6, value='a'} dr: Node{contor=7, value='c'}
+5 value: pi st: null dr: Node{contor=9, value='rrr'}
+8 value: x st: null dr: null
+6 value: a st: null dr: null
+7 value: c st: null dr: null
+9 value: rrr st: null dr: null
+
+Const TS:
+1 value: 33 st: Node{contor=2, value='11112'} dr: Node{contor=7, value='34'}
+2 value: 11112 st: Node{contor=5, value='1'} dr: Node{contor=3, value='24234233'}
+7 value: 34 st: null dr: null
+5 value: 1 st: null dr: null
+3 value: 24234233 st: Node{contor=4, value='21'} dr: Node{contor=6, value='25'}
+4 value: 21 st: null dr: null
+6 value: 25 st: null dr: null
+
+FIP:
+0 : 0
+1 : 0
+2 : 0
+3 : 0
+0 : 0
+1 : 0
+4 : 0
+3 : 0
+5 : 0
+6 : 1
+7 : 0
+6 : 2
+7 : 0
+5 : 0
+6 : 3
+7 : 0
+8 : 0
+6 : 4
+7 : 0
+8 : 0
+6 : 5
+7 : 0
+9 : 0
+10 : 0
+6 : 4
+7 : 0
+9 : 0
+10 : 0
+11 : 0
+5 : 0
+6 : 6
+7 : 0
+5 : 0
+6 : 7
+7 : 0
+12 : 0
+8 : 0
+6 : 5
+7 : 0
+5 : 0
+13 : 0
+14 : 0
+15 : 0
+11 : 0
+16 : 0
+17 : 0
+6 : 1
+7 : 0
+18 : 0
+14 : 0
+6 : 1
+19 : 0
+20 : 1
+15 : 0
+11 : 0
+16 : 0
+17 : 0
+6 : 8
+7 : 0
+21 : 0
+14 : 0
+6 : 8
+22 : 0
+20 : 2
+23 : 0
+20 : 3
+24 : 0
+20 : 4
+15 : 0
+11 : 0
+6 : 3
+25 : 0
+6 : 3
+22 : 0
+6 : 8
+7 : 0
+12 : 0
+6 : 1
+25 : 0
+6 : 1
+26 : 0
+20 : 5
+7 : 0
+21 : 0
+14 : 0
+6 : 8
+24 : 0
+20 : 5
+15 : 0
+11 : 0
+18 : 0
+14 : 0
+6 : 1
+19 : 0
+20 : 6
+15 : 0
+11 : 0
+6 : 8
+25 : 0
+6 : 8
+22 : 0
+20 : 5
+7 : 0
+12 : 0
+12 : 0
+6 : 9
+20 : 7
+12 : 0
+27 : 0
+28 : 0
+6 : 3
+7 : 0
+12 : 0
+
+Atoms:
+include : 0
+< : 1
+iostream : 2
+> : 3
+cmath : 4
+int : 5
+ID : 6
+; : 7
+double : 8
+struct : 9
+MyType : 10
+{ : 11
+} : 12
+main : 13
+( : 14
+) : 15
+cin : 16
+>> : 17
+while : 18
+!= : 19
+CONST : 20
+if : 21
++ : 22
+% : 23
+== : 24
+= : 25
+- : 26
+cout : 27
+<< : 28
