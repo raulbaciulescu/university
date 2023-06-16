@@ -1,0 +1,47 @@
+Lab7
+
+la fork()
+- -1 error
+- 0 copil
+- altcv parinte
+
+cand poate sa esueze fork():
+- nu mai e memorie de la prea multe forkuri
+- 
+
+ce face fork():
+- kernel(nucleul sist de operare) face o copie a procesului parinte in alta zona de memorie,
+in ram(random acces memory) volatila(datele sunt acolo daca exista curent)
+
+
+
+
+rom vs ram
+- read only memory (rom), un cip pe placa de baza unde e pastrat bios-ul
+
+
+proces copil al carui parinte se executa, dar refuza sa i ia statusul
+- e zombie pt ca nu pot sa-l omor
+- orfan e un proces copil care e executat inca, parintele si-a incheiat
+deja executia fara sa i astepte statusul copilului
+- evitam orfanul facand wait
+
+gcc -Wall -o fork4 fork_4.c
+
+stdin stdout stderror vin mostenite pe copil, si copilul si parintele scriu in aceeasi fereastra
+
+kill -9 pid... -> e doar o inregistrare, e incheiat!!!!
+
+signal(SIGCHILD, SIG_IGN); ---> prevenim un zombie, daca avem parinte ocupat si nu putem face wait
+
+
+variabilele sunt in segmente de date diferite!!
+
+
+trimit din copil la parinte cu exit(sum)
+status e in 4 octeti
+sum = WEXITSTATUS(,...)
+
+what is wait
+man 3p wait
+

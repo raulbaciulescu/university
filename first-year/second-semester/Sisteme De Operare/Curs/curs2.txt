@@ -1,0 +1,42 @@
+Curs2 so
+- lucreaza in c
+- 0 = standard input
+- 1 = standard output
+- 2 = standard error
+
+./filter < filter.c 
+ruleaza programul dar in loc sa dai ca input consola,
+da-i ca input programul asta filter.c
+
+echo "ASdaasda" | ./filter > a.txt
+ruleaza programul asta ./filter, dar iesirea lui standard o pui in acest fisier
+a.txt
+in loc de > pun asa >> si adauga la capatul, nu sterge fisierul
+
+ls . asdasfda > b.txt 2 > &1
+redirecteaza out-ul in b.txt si errorile exact unde se duce iesirea standard
+
+Programare shell
+- val de adevarat in shell este val de returnare
+- daca e 0 e adevarat, nu e 0 e fals, invers decat in c
+- true, false, test
+- lazy evaluation un mod de a evalua o conditie logica = 
+daca da de o conditie falsa nu merge mai departe pt ca nu are rost
+- true || echo "nu se va tipari nimic" pt ca true e deja adevarat
+- man test
+- -eq..... -ne
+- intotdeauna va intoarce un cod de exit, aceea e valoarea de adevar
+- echo $A
+- echo "${C}na are intre $B si $N mere de soi $A" = Ana are intre 4 si 2 mere de soi abc
+- doar intre "" se face substitutia
+- ls -l,  chmod 700 a.sh = ca sa am permisiune avem asa ...-...-... 700, pt mine pt grup pt restul lumii
+- noi punem #!/bin/bash ca prima linie sa zicem ce interpretor sa fie
+- scriptul a.sh
+- $0 - intotdeauna va fi numele scriptului
+- $1 - 4 - argumentele
+- $@ toate argumentele date ca un intreg
+- $# numarul de argumente
+- $? codul de exit al comenzii anterioare!!!!
+- echo $A | grep -E -q "^[0-9]+$"
+- dau echo la A o trimit lui grep nu vreau mesajul lui grep asa ca dau-q, -E sa nu mai
+pun \, grep da un cod de exit 

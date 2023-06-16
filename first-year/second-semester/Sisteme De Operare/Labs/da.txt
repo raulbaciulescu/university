@@ -1,0 +1,34 @@
+pipe fifo
+nu mesaje 
+
+
+cu pipe sau cu fifo pot sa rezolv
+2 programe care comunica prin pipe
+
+
+unu citeste unu scrie, nu in ambele sensuri
+nu o sa mai fie mai multi childs
+
+parintele o procesare continua
+
+child afiseaza sau scrie in fisier
+
+avem mai multe thread-uri care au un task mai mic si toate formeaza procesul
+
+se cere sa se faca suma a unului milion de numere..pe cate threaduri
+
+daca as avea 4 core uri as porni 4 thread-uri, numarul se poate determina experimental, 
+multiplic 4, 8, 16
+
+avantaje thread-
+sunt mai rapide decat procesele
+
+gcc -Wall -o thread_1 thread_1.c -pthread
+
+
+folosire mutex
+lock inainte de sectiunea critica
+unlock dupa sectiunea critica
+
+
+wr_lock

@@ -1,0 +1,3 @@
+﻿  ciclu_eulerian.cpp
+D:\Facultate\Grafuri\pregatire2\ciclu_eulerian\ciclu_eulerian\ciclu_eulerian.cpp(63): warning C4715: 'cauta_varf': not all control paths return a value
+  ciclu_eulerian.vcxproj -> D:\Facultate\Grafuri\pregatire2\ciclu_eulerian\x64\Debug\ciclu_eulerian.exe

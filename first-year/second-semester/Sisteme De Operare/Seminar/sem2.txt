@@ -1,0 +1,31 @@
+ps!!!!!!!! pt procese
+
+last | awk '$5="Mar" && {print $0}"
+
+last | awk '$1~ /^..ir/ {print $0}'
+
+seminar2
+shell = un program special care furnizează o interfaţă între
+ 	utilizator şi nucleul sistemului de operare
+      = programul in care scriu cod
+shell script = fisier in care folosim comenzi
+u pt prorietar(user)
+g pt grup
+o pt restul(others)
+
+chmod u+x  a.sh = pt mine
+chmod +x a.sh = pt toti
+ 
+
+read = 4 write = 2 execute = 1
+
+chmod 755
+
+-prima secventa ce seamana cu un comentariu, spune ca scriptul e de tip bash,
+trebuie interpretat cu interpretorul bash
+-Bourne Again Shell - numele celui care a inventat primul bash
+
+-echo "$HOME" face substitutie
+-echo '$HOME'
+
+unset MESAJ, sterg o variabila

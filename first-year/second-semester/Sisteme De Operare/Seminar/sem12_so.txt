@@ -1,0 +1,53 @@
+minimul unui sir folosind threaduri
+
+#include ...
+#include MAX_NUM 100000
+#define MAX_THR 50
+
+
+int numbers[MAX_NUM];
+int minims[MAX_THR];
+
+void* do_work(void* a)
+{
+    int tnum = *()a;
+    int min = INT_MAX; //var locala
+    ...
+    minims[tnum] = min;
+    return NULL;          
+}
+int main()
+{
+    pthread_create()
+    for ....
+	int min = ...//determin minimul global
+    return 0;
+//----------------------------------------------------------
+val min / media aritm
+
+folosim bariera!!
+la bariera pun nr de threaduri, daca pun mai mic sunt care vor scapa
+
+pthread_barrier_init(&barr, NULL, MAX_THR);
+ca sa-l distrugem...
+- singurul lucru dif la thread e stiva!!
+
+
+
+3. produce consume --- variabila de conditie
+pthread_mutex_t mtx = pt....
+pthread_cond_t cond = ...
+void* produce(void* a)
+{
+    pthread_mutex_lock(&mtx);
+    if (is_full()) //daca e plin sa l pun in asteptare
+	pthread_cond_wait(&cond, &mtx);
+    pthread_cond_signal(&cond);
+    pthread_mutex_unlock(&mtx);
+}
+
+void* consume(void* a)
+{
+    if (is_empty())
+	pthread_cond_wait(&cond, &mtx);	
+}

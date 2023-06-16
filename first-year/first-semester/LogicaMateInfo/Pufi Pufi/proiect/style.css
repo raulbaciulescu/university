@@ -1,0 +1,14 @@
+
+body {
+  background-image: url(fundal2.jpg);
+
+  background-position:right center;
+  
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+  
+  background-color: #464646;
+}

@@ -1,0 +1,58 @@
+Lab 9
+
+
+
+- nu va fi shell memory la practic
+- ipcs = shared memory segments, semaphore arrays, message queues 
+- 
+- cand trimit mesaj sa pun \n la final === e la fel cu un flush!!
+
+int n;
+scanf("%d", &n); // el nu citeste \n
+char sir[50];
+fgets();   // cand fac fget el citeste enter
+
+
+int c;
+scanf("%c", &c);   c \n 
+getchar();
+scanf("%s", sir)
+
+
+
+whatis open
+man 3p open!
+
+
+int fd;
+open()
+read()
+write()
+close()
+
+
+urandom generator de nr random
+count = cate numere sa genereze
+dd if=/dev/urandom of=file.bin bs=2 count=10
+hexdump -C file.bin
+
+5. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte dintr-un fişier de tip text două numere întregi pe care le trimite prin pipe procesului copil,
+iar procesul copil returnează prin pipe suma lor.
+
+
+int fid = open("file.bin", O_RDONLY);
+while (1)
+{
+  int val;
+  int n = read(fid, &val, sizeof(int));
+  if (n == 0)
+    break;
+  sleep(2);
+}
+
+int status;
+wait(&status);
+
+
+

@@ -1,0 +1,17 @@
+nasm -fobj exemplu.asm
+nasm -fobj mainsuma.asm
+nasm -fobj secondsuma.obj
+alink -oPE -subsys console -entry start mainsuma.obj secondsuma.obj
+
+mainsuma
+
+
+
+nasm -fobj tema9_1.asm
+nasm -fobj tema9_2.asm
+alink -oPE -subsys console -entry start tema9_1.obj tema9_2.obj
+tema9_1
+
+
+
+D:\asm_tools\npp\teme\pt_examen

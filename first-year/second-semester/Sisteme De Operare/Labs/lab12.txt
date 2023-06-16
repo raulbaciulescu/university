@@ -1,0 +1,28 @@
+
+
+fara semafor
+
+
+mutex da
+bariera
+variabila de conditie
+
+tot inafara de semafor
+
+
+if = input file
+dd if=/dev/urandom op=file2.bin bs=1 count=100000
+hexdump -C file2.bin
+
+
+ascii codificat pe un octet????
+utf-8 codificat pe 2 
+
+
+-daca in etapa 2 depind de etapa 1 => obligatoriu o bariera
+minim local = poate fi determinat independent
+media aritmetica = am nevoie de minimuri
+
+
+
+variabila de conditie!! 

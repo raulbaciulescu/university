@@ -1,0 +1,23 @@
+- IPC -1. intre procese locale
+      -2. intre procese aflate la distanta(remote)
+
+comunicare intre procese ce lucreaza pe acelasi pc! la so
+restul am facut deja la retele
+
+pipe = comunicare intre procese locale
+     = dintre parinte si copil
+     = flux de date, unidirectional, fie scrie, fie citeste
+
+
+fie parintele scrie, copilul citeste fie invers!
+
+
+ierarhie
+- /bin
+- /etc
+- /proc
+...
+- /tmp
+
+redirectare  suprascris 'ls -l > list.txt' 
+	     append 'ls -l >> list.txt'

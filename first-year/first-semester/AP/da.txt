@@ -1,0 +1,22 @@
+sapt viitoare curs - teorie
+export json, pickle, txt, excel, html
+ultimu lab practic
+3 minute maxim pe intrebare
+pandas pt excel
+django pentru web develop
+
+glassdoor
+linkedin
+angular 
+react
+
+
+
+
+seminar 13
+la o daca e log n  poate fi si n
+la omega invers
+la teta intersectia lor
+alegeti complexitatile corecte 
+3 foruri...unu merge pana la n la a 2 a, unu pana la log...aprox n la a 3 a
+range e o colectie

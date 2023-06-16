@@ -1,0 +1,3 @@
+﻿  lab6.cpp
+D:\Facultate\Grafuri\laburi\lab6\lab6\lab6\lab6.cpp(62): warning C4715: 'cauta_varf': not all control paths return a value
+  lab6.vcxproj -> D:\Facultate\Grafuri\laburi\lab6\lab6\x64\Debug\lab6.exe

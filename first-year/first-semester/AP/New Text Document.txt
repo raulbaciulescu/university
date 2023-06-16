@@ -1,0 +1,23 @@
+x.index, x.find('.')
+cautam primul caracter
+
+
+
+.split 
+x == x[::-1] --- palindrom
+ctrl + q
+duplu
+dictionar
+/////////////////////////////////////////
+Seminar
+ x = [x for x in range(10) if x == asd ]
+[1,2]*10
+x={'a':1, }
+
+
+
+Seminar
+18:23 
+stergem din dictionar
+del d[5]
+sterge elem  cu cheia 5

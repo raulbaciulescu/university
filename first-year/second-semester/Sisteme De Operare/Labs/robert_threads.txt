@@ -1,0 +1,62 @@
+Biblioteci:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <semaphore.h>
+#include <string.h>
+
+Threaduri:
+
+pthread_t thread; - declarare
+pthread_create(&thread, NULL, functie_thread, pointer de tip void*); - initializare
+pthread_join(thread, NULL); - asteapta sa se termine threadul
+
+Mutex:
+
+pthread_mutex_t mutex;
+pthread_mutex_init(&mutex, NULL);
+pthread_mutex_lock(&mutex);
+pthread_mutex_unlock(&mutex);
+pthread_mutex_destroy(&mutex);
+
+Semafor:
+
+sem_t semafor;
+sem_init(&semafor, 0, nr_threaduri);
+sem_destroy(&semafor);
+sem_post(&semafor); // elibereaza semaforul
+
+Ex: semafor
+
+void* load(void* param)
+{
+    sem_wait(&semafor);
+
+    for(int i = 0; i < 3; ++i)
+        if(pthread_mutex_trylock(&mutex[i]) == 0)
+        {
+            //calcule
+            pthread_mutex_unlock(&mutex[i]);
+            sem_post(&semafor);
+            return NULL;
+        }
+}
+
+Variabile conditionale:
+
+-necesita un mutex
+
+pthread_cond_t cond;
+pthread_cond_init(&cond, NULL);
+pthread_cond_signal(&cond); - elibereaza un thread care asteapta dupa cond
+pthread_cond_wait(&cond, &mutex);
+pthread_cond_broadcast(&cond); - elibereaza toate threadurile care asteapta dupa cond
+pthread_cond_destroy(&mutex);
+
+Bariera:
+
+pthread_barrier_t bariera;
+pthread_barrier_init(&bariera, NULL, thread count);
+pthread_barrier_wait(&bariera); // asteapta pana cand numarul cerut de threaduri a ajuns la bariera
+pthread_barrier_destroy(&bariera);

@@ -1,0 +1,7 @@
+seminar sapt 10
+
+- thread-uri, context
+- in proces - zona de date initializate, neinitializate, code, heap, stack
+
+- la threaduri fiecare are stack-ul lui, fiecare are aceeasi zona de adrese
+

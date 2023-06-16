@@ -1,0 +1,72 @@
+;fopen(nume_fisier, mod_acces)
+
+;scanf(format, a)
+;fread(a, 1, 1, descriptor)
+;fread(buffer, 1, len, descriptor_fis)
+
+
+;fprintf(descriptor_w, format, eax)
+;printf(format, eax)
+
+
+
+fara semn:
+JB eticheta – jump if below (se face salt la eticheta daca op1 < op2)
+JA eticheta – jump if above (se face salt la eticheta daca op1 > op2)
+
+
+cu semn:
+JL eticheta – jump if less (se face salt la eticheta daca op1 < op2)
+JG eticheta – jump if greater (se face salt la eticheta daca op1 > op2)
+
+
+dx:ax = a * b
+push dx
+push ax
+pop ecx ;ecx = a * b
+
+dx:ax = a * b
+mov word[x], ax
+mov word[x + 2], dx ;x = a * b
+
+edx:eax + 
+ecx:ebx
+
+s dq 1122334455667788h
+mov ecx, dword[s + 4]
+mov ebx, dword[s + 0]
+
+
+
+ls equ $-s
+d times ls db 0
+
+len equ 100                                           
+text times (len+1) db 0
+push dword [descriptor_fis]
+push dword len
+push dword 1
+push dword text        
+call [fread]
+add esp, 4*4	
+
+
+
+test al, 1
+jz pas_urmator ;daca e par
+
+
+dec ecx
+jnz repeta
+
+
+mov  ax, [b] ; izolam bitii 10-12 ai lui b
+and  ax, 0001110000000000b
+mov  cl, 10
+ror  ax, cl ; rotim 10 pozitii spre dreapta
+or   bx, ax ; punem bitii in rezultat
+
+JECXZ endFor
+
+lodsb
+stosb

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1645445716 source:d:\facultate\grafuri\laburi\lab1\main.cpp
+	<iostream>
+	<fstream>
+

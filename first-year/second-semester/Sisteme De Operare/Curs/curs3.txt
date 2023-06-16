@@ -1,0 +1,4 @@
+curs 3
+- mai multe comenzi pe o linie cu |, ||, &&, (), ;
+- echo $? => asa vad codul de retur/ de exit
+- pipe are prioritate mare grep .... | sort

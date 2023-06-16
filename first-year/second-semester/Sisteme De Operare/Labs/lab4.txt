@@ -1,0 +1,47 @@
+Lab4
+
+grep - filtru, parcurge fluxul de intrare(fisier), outputul altei comenzi(in pipe)
+linie cu linie, daca intalneste pattern intoarce linia
+
+\Tudor\ => da doar cuvantul tudor de sine statator, nu tudorache
+- opusul si inca ceva parca..
+
+sed
+- '-n' sa nu mai dubleze liniile
+- 's/19/18/' schimba doar primu 18
+- 's/19/18/g' le schimba pe toate
+- 's/19/18/2' doar pe a 2 a
+- 's/Ion/&ut/'
+- mai e la gheorghe sa ia doar o parte din el!!
+
+
+awk
+- awk {print $0} => intreaga linie
+- awk {print $1} => prima coloana gasita(separatorul e ' '}
+- awk {print $1, $2}
+- awk '{print NR, NF}'
+- $NF !!
+
+
+
+procese
+-c numara cate is de la count
+-f format extins
+-fU raul == trebuie neaparat asa ca dupa u vine userul
+ps -ef | wc -l   numar procesele
+ps -ef | grep -c '.'
+
+> suprascris, fisierul va fi creat
+>> se face append
+
+find
+- permisiuni
+- find /bin -perm /u=x,g=x,o=x
+who
+last
+cut
+ last | grep 'Mar  8' | cut -d " " -f 1
+
+
+
+tot = grep --color '^.\+$' angajati.txt

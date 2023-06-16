@@ -1,0 +1,52 @@
+
+Exercitii (fisier de date: angajati.txt) 
+-----------------------------------------------------------------------------------------------------
+
+1. Afisati toate liniile care contin sirul 'Tudor'.
+ grep --color 'Tudor' angajati.txt
+
+2. Afisati toti angajatii care au numele 'Tudor'.
+grep --color '^Tudor' angajati.txt
+
+3. Afisati toate liniile care contin sirul '1942'.
+ grep --color '1942' angajati.txt
+
+4. Afisati toti angajatii al caror salariul este 1942.
+grep -E --color '1942$' angajati.txt
+
+5. Afisati toti angajatii al caror nume de familie incepe cu litera A.
+ grep --color ' A' angajati.txt
+
+6. Afisati toti angajatii al caror numar de telefon incepe cu 0741.
+grep --color '0741' angajati.txt
+
+7. Afisati toti angajatii nascuti in luna martie.
+grep --color '[1-9]+/3/[1-9]{4}' angajati.txt
+
+8. Afisati toti angajatii care locuiesc in Floresti.
+grep --color -E 'Floresti' angajati.txt
+
+9. Afisati toti angajatii care nu locuiesc in Floresti.
+ grep --color -E -v 'Floresti' angajati.txt
+
+10. Afisati toti angajatii care nu locuiesc in Floresti sau in Cluj-Napoca.
+grep --color -E -v -e 'Floresti' -e 'Cluj-Napoca' angajati.txt
+
+11. Afisati toate liniile care contin o majuscula urmata de 4 litere mici, un spatiu si o majuscula.
+grep --color -E '[A-Z][a-z]{4} [A-Z]' angajati.txt
+
+12. Afisati toate localitatile de domiciliu care incep cu litera F sau S.
+ grep --color -E -e ',F' -e ',S' angajati.txt
+
+13. Afisati toate salariile care au 5 cifre.
+grep --color -E '[0-9]{5}$' angajati.txt
+
+14. Afisati doar primul salariu care are 5 cifre.
+ grep --color -E -m 1 '[0-9]{5}$' angajati.txt
+
+15. Afisati toate salariile care au 5 cifre si 2 linii inainte/dupa.
+ grep --color -E -A 2 -B 2 '[0-9]{5}$' angajati.txt
+
+16. Afisati numarul de angajati care locuiesc in Cluj-Napoca.
+grep --color -E -c 'Cluj-Napoca' angajati.txt
+

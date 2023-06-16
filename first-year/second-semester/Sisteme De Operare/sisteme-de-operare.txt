@@ -1,0 +1,196 @@
+brir3052
+d68b4c3c3#
+3Y112493
+13052
+
+v + y + p
+
+gcc -Wall -g client.c -o client
+gcc -Wall -g server.c -o server
+gcc server_thread.c -o server_thread -lpthread
+./client
+${workspaceFolder}/**
+
+
+javac  Client.java
+java Client
+
+
+./client
+ls
+cd
+rm
+mv
+mkdir home
+
+
+wget -r -np -nH --cut-dirs=3 -R index.html https://ubb.xeosmarthome.com/
+
+
+socklen_t l;
+
+
+touch nume ------> ca sa creez un file
+cat nume, ca sa ii dau copy pastd68b4c3c3#d68b4c3c3#e
+
+
+tema1b
+fac una cu fork, una cu thread 
+
+
+
+pe linux cum aflu adresa ip ifconfig
+
+modific problemele pe azi,,,
+la astea pe azi fac serverele la probleme unu cu thread, celalalt cu fork
+un client scriu in alt limbaj
+server client pe pc diferite
+port forwarding!!
+
+
+
+
+
+roullll
+
+
+linux vs unix
+unix un sist de operare destinat serverelor
+server vs pc
+server e un computer ca o hala
+
+linux sist de operare pentru pc uri
+nu putem sa rulam un unix
+pt unix avem nevoie de un server
+
+clona unix => linux
+
+mounting fac un nou disk in linux(nu e chiar disk) e un folder ceva
+daca incepe cu d e un directory(cand am dat ls --all sau ls -l)
+- fisier de tip obisnuit
+bin e argument
+-all e optiune
+
+- in windows avem extensii(.txt, .mp3), aici nu avem
+tipul fisierului e dat de ceea ce contine
+contine un text => e un text
+cd .. pentru ca (
+- cu puncte exista fisierele ascunse, pt necunoscatori
+- . => desemneaza directorul curent
+- .. => desemneaza directorul parinte pana la dbota, fara dbota)
+cd ma duce acasa
+cd ~ ma duce acasa
+
+selectez, paste e click dreapta
+!573 linia din history
+mv dir1 212-2/dir1 => relativ ,, ./212-2/dir1
+sau
+mv dir2 /home/scs/licenta/an2/gr226/brir3052/212-2/dir2
+tree
+
+touch file1
+nano file1
+cat -> afisez ce am 
+cat file1 file2 -> concatenare
+
+ctrl c = opreste programu care o luat o razna
+bash e ca cmd
+
+suspend inseamna ca inghet procesul
+tree /
+kill codu ce l arata in ps
+who!!
+
+cal
+ps lista de procese
+
+
+| ca niste cutii cat -> grep
+cat si grep sunt cutii
+> suprascrie
+>> adauga
+
+who users | sort
+man pwd
+
+
+
+
+
+
+grep --color 'Tudor' angajati.txt
+2. grep '^Tudor' === match tudor primul cuvant de pe linie
+
+
+3. grep '1942' 
+
+
+
+4. angajati al caror salar e 1942
+4. grep '1942$'
+
+
+
+5. Afisati toti angajatii al caror nume de familie incepe cu litera A.
+  Tudor Vladimirescu
+	'^[A-Z][a-z]\+.....
+	' [A-Z][a-z]\+ ' ==== selecteaza numele de familie
+
+
+
+
+6. Afisati toti angajatii al caror numar de telefon incepe cu 0741.
+
+
+8. Afisati toti angajatii care locuiesc in Floresti.
+	grep --color 'Floresti' angajati.txt
+	grep --color -e 'Floresti' -e 'Cluj-Napoca' angajati.txt
+10. Afisati toti angajatii care nu locuiesc in Floresti sau in Cluj-Napoca.
+	grep --color - i?? -e 'Floresti' -e 'Cluj-Napoca' angajati.txt
+
+11. Afisati toate liniile care contin o majuscula urmata de 4 litere mici, un spatiu si o majuscula.
+	'[A-Z][a-z]\{4\} [A-Z]'
+12. Afisati toate localitatile de domiciliu care incep cu litera F sau S.
+	localitatiile de domiciliu
+	-,[A-Z][a-z]\+[- ]
+
+13. Afisati toate salariile care au 5 cifre.
+	'[0-9]\{5\}'
+
+14. Afisati doar primul salariu care are 5 cifre.
+	-m 1???? '[0-9]\{5\}'
+
+
+15. Afisati toate salariile care au 5 cifre si 2 linii inainte/dupa.
+
+grep -color '.' === face match pe tot tot
+
+
+
+ex cu sed
+1. continutul intregului fisier
+sed -n 'p' angajati.txt
+
+sed|... nu le dubleaza
+ce e in print si ce e in buffer
+	
+
+sed 'p2,5' angajati.txt
+
+
+
+2. Afisati liniile de la 5 pana la 10.
+-
+
+3. Afisati liniile de la 8 pana la ultima.
+'8$p'
+
+4. Afisati liniile care contin sirul 'Tudor'.
+'\Tudor\p'
+
+sed -n '\bTudor\b\p' angajati.txt
+
+
+
+
+grep  pe ce linie gaseste patternu afiseaz

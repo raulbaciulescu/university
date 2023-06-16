@@ -1,0 +1,1 @@
+{"1": {"py/object": "Domain.masina.Masina", "_Entitate__id_entitate": "1", "_Masina__indicativ": 23, "_Masina__nivel_confort": "ridicat", "_Masina__plata_card": true, "_Masina__model": "fdsfsd"}}

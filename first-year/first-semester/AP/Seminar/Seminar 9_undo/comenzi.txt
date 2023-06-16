@@ -1,0 +1,1 @@
+{"1": {"py/object": "Domain.comanda.Comanda", "_Entitate__id_entitate": "1", "id_masina": "1", "id_locatie": "1", "timp_final": 10, "cost_km": 13, "distanta": 200, "status": "in desfasurare"}, "2": {"py/object": "Domain.comanda.Comanda", "_Entitate__id_entitate": "2", "id_masina": "1", "id_locatie": "2", "timp_final": 11, "cost_km": 11, "distanta": 100, "status": "finalizata"}}

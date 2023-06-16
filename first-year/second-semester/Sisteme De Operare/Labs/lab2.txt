@@ -1,0 +1,19 @@
+gcc -Wall -g -o lab2_1 lab2_1.c
+
+-wall = afiseaza tot ce e warning
+-g = includem inf simbolica
+-o = urmeaza neaparat un nume!!!
+
+
+env = lista variabilelor de mediu(comanda -> env)
+argc numarul argumentelor
+
+
+
+cat -n !!!!!!! afiseaza si linia pe care sunt
+malloc rezulta un void* == poate fi orice
+valgrind ./ex1_2!!
+
+touch .nanorc
+set tabsize 4
+include /usr/share/nano/c.nanorc

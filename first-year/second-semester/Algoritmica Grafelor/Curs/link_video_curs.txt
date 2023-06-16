@@ -1,0 +1,12 @@
+Curs 01 - Introducere, https://youtu.be/ysMoVLZo8xE
+Curs 02 - Reprezentarea unui graf, parcurgerea unui graf, https://youtu.be/gNFv-twRP28
+Curs 03 - parcurgeri, drumuri de cost minim in grafuri orientate si ponderate, https://youtu.be/VoBOJ_FbvOw
+Curs 04 - programare liniara, drum de cost min intre toate perechile ce varfuri, https://youtu.be/iI3p8zFF2Xk
+Curs 05 - Algoritmul lui Johnson pentru drum de cost minim intre toate perechile de varfuri (exemplu reponderare) https://youtu.be/iGsNqBQV6qs
+Curs 06 (an 2020-2021) - Arbori, grafuri Euleriene (introducere) https://youtu.be/bDLH8vf9KV8
+Curs 07 (an 2020-2021) - grafuri Euleriene si Hamiltoniene (continuare curs 06) retele de flux https://youtu.be/s5v7ae4E3QM
+Curs 08 (an 2020-2021) - retele de flux (II) https://youtu.be/kVahnxfKrfY
+Curs 09 (an 2020-2021) - grafuri planare, colorarea grafurilor https://youtu.be/xB9lajXd1BY
+Curs 10 (an 2020-2021) - colorarea grafurilor (II), cuplaje in grafuri (introducere) https://youtu.be/6bLpnCL7vpw
+Curs 11 (an 2020-2021) - cuplaje in grafuri bipartite https://youtu.be/stP9rmqmJUA
+Curs 12 (an 2020-2021) - grafuri de activitati, masuri in grafuri https://youtu.be/r_48-DgFB9M

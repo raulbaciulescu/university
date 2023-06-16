@@ -1,0 +1,65 @@
+Lab6
+
+
+sa folosesc find cand am subdirectoare!!!
+f = fisier, d = directoare
+fin usr/lib type f | sed 's@.*/@@'
+
+
+
+$NUME
+
+parameter substitution:
+${parameter}
+
+cate caractere sunt in acel nume:
+echo ${#NUME} 
+
+expr length $NUME
+
+
+NUME=madalina
+echo ${NUME^^}
+echo ${NUME^}
+
+echo ${NUME,}
+echo ${NUME,,}
+
+echo ${NUME:3:5}
+echo ${NUME: -3}
+echo ${NUME: -5:3}
+
+echo ${NUME:=ALINA} => MADALINA
+unset NUME
+echo ${NUME,} => ALINA, e folosit pentru a pune nume implicite
+
+echo ${NUME:-CARLA}
+echo ${}
+
+
+comand substitution
+${cmd1 | cmd2 | cmd3} <=> `cmd1 | cmd2 | cmd3`
+
+arithmetic expression
+$(()) <=> $[]
+
+./ex1.sh unu 2 trei 4 cinci
+:x
+$* "unu 2 trei 4 cinci"
+$@ "unu" "2" "trei" "4" "cinci"
+
+<dev null = gaura neagra
+
+>file_1.txt = golesc fisier fara sa intru in el!!!!!!!!
+
+cat >file1.txt </dev/null forma explicita
+cat de la concatenate, cu consola
+
+cum sa extrag o comanda intr o variabila!
+la ex2 un if cu find
+
+
+file test.txt | grep ': ASCII TEXT'
+echo $ = ultima comanda
+0 e true!
+
